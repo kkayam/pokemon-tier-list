@@ -43,7 +43,7 @@ const nameExceptions = {
   'Dialga-O': 'dialga-origin-forme',
   'Palkia-A': 'palkia',
   'Palkia-O': 'palkia-origin-forme',
-  'Enamorus-I': 'enamorus-incarnate-forme',
+  'Enamorous': 'enamorous-incarnate-forme',
 };
 
 export default function Home({ data }) {
@@ -99,19 +99,20 @@ export default function Home({ data }) {
                   const pokemonLink = `https://pokemongo.gamepress.gg/c/pokemon/${formattedName}`;
 
                   return (
-                    <div
+                    <a
                       key={index}
-                      className="bg-white text-black p-2 rounded-md shadow-sm flex items-center justify-between"
+                      href={pokemonLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-white text-black p-2 rounded-md shadow-sm flex items-center justify-between transition-transform duration-300 hover:scale-105 hover:shadow-lg hover:bg-gray-300"
                     >
-                      <a href={pokemonLink} target="_blank" rel="noopener noreferrer" className="text-lg font-semibold mr-4 hover:underline">
-                        {pokemon.name}
-                      </a>
+                      <span className="text-lg font-semibold mr-4">{pokemon.name}</span>
                       <span
                         className={`text-sm font-medium px-2 py-1 rounded-md ${tierColors[pokemon.tier]}`}
                       >
                         {pokemon.tier}
                       </span>
-                    </div>
+                    </a>
                   );
                 })}
               </div>
