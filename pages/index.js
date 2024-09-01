@@ -36,6 +36,16 @@ const tierColors = {
   F: 'bg-purple-500 text-white',
 };
 
+// Define exceptions for specific Pokémon names
+const nameExceptions = {
+  'Necrozma-DM': 'dawn-wings-necrozma',
+  'Dialga-A': 'dialga',
+  'Dialga-O': 'dialga-origin-forme',
+  'Palkia-A': 'palkia',
+  'Palkia-O': 'palkia-origin-forme',
+  'Enamorus-I': 'enamorus-incarnate-forme',
+};
+
 export default function Home({ data }) {
   const [searchTerm, setSearchTerm] = useState(''); // State to handle search term
 
@@ -81,8 +91,12 @@ export default function Home({ data }) {
               <h2 className="text-2xl font-bold mb-4 text-white">{type}</h2>
               <div className="flex flex-wrap gap-4">
                 {pokemonsByType.map((pokemon, index) => {
-                  const pokemonNameUrl = pokemon.name.toLowerCase().replace(/\s+/g, '-'); // Convert name to lowercase and replace spaces with dashes
-                  const pokemonLink = `https://pokemongo.gamepress.gg/c/pokemon/${pokemonNameUrl}`;
+                  // Check if the Pokémon name is an exception
+                  const formattedName = nameExceptions[pokemon.name]
+                    ? nameExceptions[pokemon.name]
+                    : pokemon.name.toLowerCase().replace(/\s+/g, '-');
+
+                  const pokemonLink = `https://pokemongo.gamepress.gg/c/pokemon/${formattedName}`;
 
                   return (
                     <div
