@@ -137,18 +137,26 @@ export default function Home({ data }) {
       {/* Info Box */}
       <div className="mt-12 p-4 rounded-lg shadow-md bg-blue-500 text-white">
         <h2 className="text-2xl font-bold mb-4">Info</h2>
-        <p className="mb-2">
-          Data source: {' '}
-          <a href="https://your-data-source-link.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-300">
-            Pokémon Data Source
+        <div className="flex flex-wrap gap-4">
+          {/* Data Source Link */}
+          <a
+            href="https://docs.google.com/spreadsheets/d/1m6Zmt3AUA_ZGoX88MgoQ0PngtSS55caFevg_nKH4rV0/edit?gid=2000687031#gid=2000687031"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-white text-black p-2 rounded-md shadow-sm flex items-center justify-between transition-transform duration-300 hover:scale-105 hover:shadow-lg hover:bg-gray-300"
+          >
+            <span className="text-lg font-semibold">Tier List Data Source</span>
           </a>
-        </p>
-        <p>
-          Contribute on GitHub: {' '}
-          <a href="https://github.com/your-repo-link" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-300">
-            GitHub Repository
+          {/* GitHub Repo Link */}
+          <a
+            href="https://github.com/kkayam/pokemon-tier-list"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-white text-black p-2 rounded-md shadow-sm flex items-center justify-between transition-transform duration-300 hover:scale-105 hover:shadow-lg hover:bg-gray-300"
+          >
+            <span className="text-lg font-semibold">Contribute on GitHub</span>
           </a>
-        </p>
+        </div>
       </div>
     </div>
   );
