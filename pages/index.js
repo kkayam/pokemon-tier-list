@@ -70,6 +70,7 @@ export default function Home({ data }) {
   return (
     <div className="p-4">
       {/* Search Bar */}
+      <h1 className="text-4xl md:text-6xl font-bold mb-16 mt-16">The Definite Pokemon GO Tier List</h1>
       <div className="relative mb-6">
         <input
           type="text"
@@ -135,7 +136,7 @@ export default function Home({ data }) {
       </div>
 
       {/* Info Box */}
-      <div className="mt-12 p-4 rounded-lg shadow-md bg-blue-500 text-white">
+      <div className="mt-16 p-4 rounded-lg shadow-md bg-blue-500 text-white">
         <h2 className="text-2xl font-bold mb-4">Info</h2>
         <div className="flex flex-wrap gap-4">
           {/* Data Source Link */}
