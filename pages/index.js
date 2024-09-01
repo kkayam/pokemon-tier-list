@@ -133,6 +133,23 @@ export default function Home({ data }) {
           );
         })}
       </div>
+
+      {/* Info Box */}
+      <div className="mt-12 p-4 rounded-lg shadow-md bg-blue-500 text-white">
+        <h2 className="text-2xl font-bold mb-4">Info</h2>
+        <p className="mb-2">
+          Data source: {' '}
+          <a href="https://your-data-source-link.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-300">
+            Pokémon Data Source
+          </a>
+        </p>
+        <p>
+          Contribute on GitHub: {' '}
+          <a href="https://github.com/your-repo-link" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-300">
+            GitHub Repository
+          </a>
+        </p>
+      </div>
     </div>
   );
 }
