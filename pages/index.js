@@ -64,14 +64,14 @@ export default function Home({ data }) {
         return (
           <div key={index} className={`my-6 p-4 rounded-lg shadow-md ${typeColors[type]}`}>
             <h2 className="text-2xl font-bold mb-4 text-white">{type}</h2>
-            {/* Grid container for Pokémon boxes */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div className="flex flex-wrap gap-4">
               {pokemonsByType.map((pokemon, index) => (
                 <div
                   key={index}
-                  className="bg-white text-black p-4 rounded-md shadow-sm flex items-center justify-between"
+                  className="bg-white text-black p-2 rounded-md shadow-sm flex items-center justify-between"
                 >
-                  <span className="text-lg font-semibold">{pokemon.name}</span>
+                  <span className="text-lg font-semibold mr-4">{pokemon.name}</span>
+                  {/* Added margin-right (mr-2) to create spacing between name and tier */}
                   <span className="text-sm font-medium bg-gray-200 text-gray-800 px-2 py-1 rounded-md">
                     {pokemon.tier}
                   </span>
