@@ -70,7 +70,7 @@ export default function Home({ data }) {
   return (
     <div className="p-4">
       {/* Search Bar */}
-      <div className="mb-6">
+      <div className="relative mb-6">
         <input
           type="text"
           placeholder="Search Pokémon by name, type, or tier..."
@@ -78,6 +78,14 @@ export default function Home({ data }) {
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         />
+        {searchTerm && (
+          <button
+            className="absolute right-2 top-1/2 transform -translate-y-1/2 text-gray-500 hover:text-gray-700"
+            onClick={() => setSearchTerm('')}
+          >
+            X
+          </button>
+        )}
       </div>
 
       {/* Grid layout for types */}
