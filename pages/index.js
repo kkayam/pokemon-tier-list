@@ -33,7 +33,6 @@ const tierColors = {
   C: 'bg-green-500 text-white',
   D: 'bg-blue-500 text-white',
   E: 'bg-indigo-500 text-white',
-  F: 'bg-purple-500 text-white',
 };
 
 // Define exceptions for specific Pokémon names
