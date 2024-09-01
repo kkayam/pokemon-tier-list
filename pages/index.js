@@ -52,13 +52,20 @@ export default function Home({ data }) {
         />
       </div>
 
-      {types.map((type, index) => (
-        <div key={index} className="my-6">
-          <h2 className="text-2xl font-bold mb-4">{type}</h2>
-          <div className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4`}>
-            {filteredPokemons
-              .filter((pokemon) => pokemon.type === type)
-              .map((pokemon, index) => (
+      {types.map((type, index) => {
+        // Filter Pokémon by type and search term
+        const pokemonsByType = filteredPokemons.filter((pokemon) => pokemon.type === type);
+
+        // If no Pokémon match the current type and search term, skip rendering this type
+        if (pokemonsByType.length === 0) {
+          return null;
+        }
+
+        return (
+          <div key={index} className="my-6">
+            <h2 className="text-2xl font-bold mb-4">{type}</h2>
+            <div className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4`}>
+              {pokemonsByType.map((pokemon, index) => (
                 <div
                   key={index}
                   className={`p-4 rounded-lg shadow-md ${typeColors[pokemon.type]} flex items-center justify-between`}
@@ -69,9 +76,10 @@ export default function Home({ data }) {
                   </span>
                 </div>
               ))}
+            </div>
           </div>
-        </div>
-      ))}
+        );
+      })}
     </div>
   );
 }
