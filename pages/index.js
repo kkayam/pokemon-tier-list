@@ -75,13 +75,13 @@ export default function Home({ data }) {
         <input
           type="text"
           placeholder="Search Pokémon by name, type, or tier..."
-          className="w-full p-2 border rounded-md text-black bg-white"
+          className="w-full text-lg md:text-2xl p-4 border rounded-md text-black bg-white"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         />
         {searchTerm && (
           <button
-            className="absolute right-2 top-1/2 transform -translate-y-1/2 text-gray-500 hover:text-gray-700"
+            className="absolute right-6 text-lg md:text-2xl top-1/2 transform -translate-y-1/2 text-gray-500 hover:text-gray-700"
             onClick={() => setSearchTerm('')}
           >
             X
