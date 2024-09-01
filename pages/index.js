@@ -43,7 +43,7 @@ const nameExceptions = {
   'Dialga-O': 'dialga-origin-forme',
   'Palkia-A': 'palkia',
   'Palkia-O': 'palkia-origin-forme',
-  'Enamorous': 'enamorous-incarnate-forme',
+  Enamorous: 'enamorous-incarnate-forme',
 };
 
 export default function Home({ data }) {
@@ -57,10 +57,15 @@ export default function Home({ data }) {
   const types = data.headers;
   const pokemons = data.pokemons;
 
-  // Filtered Pokémon based on search term
-  const filteredPokemons = pokemons.filter((pokemon) =>
-    pokemon.name.toLowerCase().includes(searchTerm.toLowerCase())
-  );
+  // Filtered Pokémon based on search term (by name, type, or tier)
+  const filteredPokemons = pokemons.filter((pokemon) => {
+    const lowerCaseSearchTerm = searchTerm.toLowerCase();
+    return (
+      pokemon.name.toLowerCase().includes(lowerCaseSearchTerm) ||
+      pokemon.type.toLowerCase().includes(lowerCaseSearchTerm) ||
+      pokemon.tier.toLowerCase().includes(lowerCaseSearchTerm)
+    );
+  });
 
   return (
     <div className="p-4">
@@ -68,7 +73,7 @@ export default function Home({ data }) {
       <div className="mb-6">
         <input
           type="text"
-          placeholder="Search Pokémon..."
+          placeholder="Search Pokémon by name, type, or tier..."
           className="w-full p-2 border rounded-md text-black bg-white"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
