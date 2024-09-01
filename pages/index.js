@@ -52,35 +52,37 @@ export default function Home({ data }) {
         />
       </div>
 
-      {types.map((type, index) => {
-        // Filter Pokémon by type and search term
-        const pokemonsByType = filteredPokemons.filter((pokemon) => pokemon.type === type);
+      {/* Grid layout for types */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {types.map((type, index) => {
+          // Filter Pokémon by type and search term
+          const pokemonsByType = filteredPokemons.filter((pokemon) => pokemon.type === type);
 
-        // If no Pokémon match the current type and search term, skip rendering this type
-        if (pokemonsByType.length === 0) {
-          return null;
-        }
+          // If no Pokémon match the current type and search term, skip rendering this type
+          if (pokemonsByType.length === 0) {
+            return null;
+          }
 
-        return (
-          <div key={index} className={`my-6 p-4 rounded-lg shadow-md ${typeColors[type]}`}>
-            <h2 className="text-2xl font-bold mb-4 text-white">{type}</h2>
-            <div className="flex flex-wrap gap-4">
-              {pokemonsByType.map((pokemon, index) => (
-                <div
-                  key={index}
-                  className="bg-white text-black p-2 rounded-md shadow-sm flex items-center justify-between"
-                >
-                  <span className="text-lg font-semibold mr-4">{pokemon.name}</span>
-                  {/* Added margin-right (mr-2) to create spacing between name and tier */}
-                  <span className="text-sm font-medium bg-gray-200 text-gray-800 px-2 py-1 rounded-md">
-                    {pokemon.tier}
-                  </span>
-                </div>
-              ))}
+          return (
+            <div key={index} className={`p-4 rounded-lg shadow-md ${typeColors[type]}`}>
+              <h2 className="text-2xl font-bold mb-4 text-white">{type}</h2>
+              <div className="flex flex-wrap gap-4">
+                {pokemonsByType.map((pokemon, index) => (
+                  <div
+                    key={index}
+                    className="bg-white text-black p-2 rounded-md shadow-sm flex items-center justify-between"
+                  >
+                    <span className="text-lg font-semibold mr-4">{pokemon.name}</span>
+                    <span className="text-sm font-medium bg-gray-200 text-gray-800 px-2 py-1 rounded-md">
+                      {pokemon.tier}
+                    </span>
+                  </div>
+                ))}
+              </div>
             </div>
-          </div>
-        );
-      })}
+          );
+        })}
+      </div>
     </div>
   );
 }
