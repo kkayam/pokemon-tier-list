@@ -23,6 +23,19 @@ const typeColors = {
   Steel: 'bg-gray-500',
 };
 
+// Define tier colors mapping
+const tierColors = {
+  'S+': 'bg-red-600 text-white',
+  S: 'bg-red-500 text-white',
+  'S-': 'bg-red-400 text-white',
+  A: 'bg-orange-500 text-white',
+  B: 'bg-yellow-500 text-black',
+  C: 'bg-green-500 text-white',
+  D: 'bg-blue-500 text-white',
+  E: 'bg-indigo-500 text-white',
+  F: 'bg-purple-500 text-white',
+};
+
 export default function Home({ data }) {
   const [searchTerm, setSearchTerm] = useState(''); // State to handle search term
 
@@ -73,7 +86,9 @@ export default function Home({ data }) {
                     className="bg-white text-black p-2 rounded-md shadow-sm flex items-center justify-between"
                   >
                     <span className="text-lg font-semibold mr-4">{pokemon.name}</span>
-                    <span className="text-sm font-medium bg-gray-200 text-gray-800 px-2 py-1 rounded-md">
+                    <span
+                      className={`text-sm font-medium px-2 py-1 rounded-md ${tierColors[pokemon.tier]}`}
+                    >
                       {pokemon.tier}
                     </span>
                   </div>
