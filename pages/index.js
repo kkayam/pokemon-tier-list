@@ -80,19 +80,26 @@ export default function Home({ data }) {
             <div key={index} className={`p-4 rounded-lg shadow-md ${typeColors[type]}`}>
               <h2 className="text-2xl font-bold mb-4 text-white">{type}</h2>
               <div className="flex flex-wrap gap-4">
-                {pokemonsByType.map((pokemon, index) => (
-                  <div
-                    key={index}
-                    className="bg-white text-black p-2 rounded-md shadow-sm flex items-center justify-between"
-                  >
-                    <span className="text-lg font-semibold mr-4">{pokemon.name}</span>
-                    <span
-                      className={`text-sm font-medium px-2 py-1 rounded-md ${tierColors[pokemon.tier]}`}
+                {pokemonsByType.map((pokemon, index) => {
+                  const pokemonNameUrl = pokemon.name.toLowerCase().replace(/\s+/g, '-'); // Convert name to lowercase and replace spaces with dashes
+                  const pokemonLink = `https://pokemongo.gamepress.gg/c/pokemon/${pokemonNameUrl}`;
+
+                  return (
+                    <div
+                      key={index}
+                      className="bg-white text-black p-2 rounded-md shadow-sm flex items-center justify-between"
                     >
-                      {pokemon.tier}
-                    </span>
-                  </div>
-                ))}
+                      <a href={pokemonLink} target="_blank" rel="noopener noreferrer" className="text-lg font-semibold mr-4 hover:underline">
+                        {pokemon.name}
+                      </a>
+                      <span
+                        className={`text-sm font-medium px-2 py-1 rounded-md ${tierColors[pokemon.tier]}`}
+                      >
+                        {pokemon.tier}
+                      </span>
+                    </div>
+                  );
+                })}
               </div>
             </div>
           );
