@@ -48,6 +48,7 @@ const nameExceptions = {
 
 export default function Home({ data }) {
   const [searchTerm, setSearchTerm] = useState(''); // State to handle search term
+  const [selectedTiers, setSelectedTiers] = useState([]); // State to handle multiple selected tiers
 
   if (!data || data.length === 0) {
     return <div>No data available</div>;
@@ -57,15 +58,32 @@ export default function Home({ data }) {
   const types = data.headers;
   const pokemons = data.pokemons;
 
-  // Filtered Pokémon based on search term (by name, type, or tier)
+  // Filtered Pokémon based on search term and selected tiers
   const filteredPokemons = pokemons.filter((pokemon) => {
     const lowerCaseSearchTerm = searchTerm.toLowerCase();
-    return (
+    const matchesSearchTerm =
       pokemon.name.toLowerCase().includes(lowerCaseSearchTerm) ||
-      pokemon.type.toLowerCase().includes(lowerCaseSearchTerm) ||
-      pokemon.tier.toLowerCase().includes(lowerCaseSearchTerm)
-    );
+      pokemon.type.toLowerCase().includes(lowerCaseSearchTerm);
+
+    // If there are selected tiers, check if the Pokémon tier is in the selected tiers array
+    const matchesTier = selectedTiers.length ? selectedTiers.includes(pokemon.tier) : true;
+
+    return matchesSearchTerm && matchesTier;
   });
+
+  // Function to toggle tier selection
+  const toggleTierSelection = (tier) => {
+    setSelectedTiers((prevSelectedTiers) =>
+      prevSelectedTiers.includes(tier)
+        ? prevSelectedTiers.filter((selectedTier) => selectedTier !== tier) // Remove tier if already selected
+        : [...prevSelectedTiers, tier] // Add tier if not selected
+    );
+  };
+
+  // Function to clear all selected tiers
+  const clearSelectedTiers = () => {
+    setSelectedTiers([]);
+  };
 
   return (
     <div className="p-4">
@@ -74,7 +92,7 @@ export default function Home({ data }) {
       <div className="relative mb-6">
         <input
           type="text"
-          placeholder="Search Pokémon by name, type, or tier..."
+          placeholder="Search Pokémon by name or type..."
           className="w-full text-lg md:text-2xl p-4 border rounded-md text-black bg-white"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
@@ -87,6 +105,26 @@ export default function Home({ data }) {
             X
           </button>
         )}
+      </div>
+
+      {/* Tier Filter Buttons */}
+      <div className="flex flex-wrap gap-4 mb-6">
+        {Object.keys(tierColors).map((tier) => (
+          <button
+            key={tier}
+            className={`py-1 px-5 text-black rounded-2xl shadow-sm ${selectedTiers.includes(tier) ? 'bg-white ' : 'bg-gray-500'} hover:bg-gray-300`}
+            onClick={() => toggleTierSelection(tier)}
+          >
+            {tier}
+          </button>
+        ))}
+        {/* Clear Button */}
+        <button
+          className="py-1 px-5 rounded-2xl shadow-sm bg-white text-black hover:bg-gray-300"
+          onClick={clearSelectedTiers}
+        >
+          Clear
+        </button>
       </div>
 
       {/* Grid layout for types */}
