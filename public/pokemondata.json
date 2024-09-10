@@ -1,0 +1,4687 @@
+[
+  {
+    "tier": "A+",
+    "name": "Pheromosa",
+    "type": "Bug"
+  },
+  {
+    "tier": "A+",
+    "name": "Volcarona",
+    "type": "Bug"
+  },
+  {
+    "tier": "A-",
+    "name": "Shadow Pinsir",
+    "type": "Bug"
+  },
+  {
+    "tier": "B-",
+    "name": "Vikavolt",
+    "type": "Bug"
+  },
+  {
+    "tier": "B-",
+    "name": "Yanmega",
+    "type": "Bug"
+  },
+  {
+    "tier": "B-",
+    "name": "Shadow Scyther",
+    "type": "Bug"
+  },
+  {
+    "tier": "C+",
+    "name": "Shadow Scizor",
+    "type": "Bug"
+  },
+  {
+    "tier": "C+",
+    "name": "Pinsir",
+    "type": "Bug"
+  },
+  {
+    "tier": "C",
+    "name": "Escavalier",
+    "type": "Bug"
+  },
+  {
+    "tier": "C",
+    "name": "Accelgor",
+    "type": "Bug"
+  },
+  {
+    "tier": "C-",
+    "name": "Genesect",
+    "type": "Bug"
+  },
+  {
+    "tier": "C-",
+    "name": "Heracross",
+    "type": "Bug"
+  },
+  {
+    "tier": "C-",
+    "name": "Keldeo",
+    "type": "Bug"
+  },
+  {
+    "tier": "C-",
+    "name": "Shadow Venomoth",
+    "type": "Bug"
+  },
+  {
+    "tier": "C-",
+    "name": "Shadow Galvantula",
+    "type": "Bug"
+  },
+  {
+    "tier": "C-",
+    "name": "Kartana",
+    "type": "Bug"
+  },
+  {
+    "tier": "D+",
+    "name": "Shadow Sneasler",
+    "type": "Bug"
+  },
+  {
+    "tier": "D+",
+    "name": "Durant",
+    "type": "Bug"
+  },
+  {
+    "tier": "D+",
+    "name": "Kleavor",
+    "type": "Bug"
+  },
+  {
+    "tier": "D+",
+    "name": "Xerneas",
+    "type": "Bug"
+  },
+  {
+    "tier": "D+",
+    "name": "Shadow Absol",
+    "type": "Bug"
+  },
+  {
+    "tier": "D+",
+    "name": "Scyther",
+    "type": "Bug"
+  },
+  {
+    "tier": "D+",
+    "name": "Bisharp",
+    "type": "Bug"
+  },
+  {
+    "tier": "D+",
+    "name": "Lokix",
+    "type": "Bug"
+  },
+  {
+    "tier": "D",
+    "name": "Leavanny",
+    "type": "Bug"
+  },
+  {
+    "tier": "D",
+    "name": "Scizor",
+    "type": "Bug"
+  },
+  {
+    "tier": "D",
+    "name": "Scolipede",
+    "type": "Bug"
+  },
+  {
+    "tier": "D",
+    "name": "Golisopod",
+    "type": "Bug"
+  },
+  {
+    "tier": "D",
+    "name": "Buzzwole",
+    "type": "Bug"
+  },
+  {
+    "tier": "D-",
+    "name": "Shadow Crustle",
+    "type": "Bug"
+  },
+  {
+    "tier": "D-",
+    "name": "Shadow Rhydon",
+    "type": "Bug"
+  },
+  {
+    "tier": "D-",
+    "name": "Shadow Beedrill",
+    "type": "Bug"
+  },
+  {
+    "tier": "D-",
+    "name": "Venomoth",
+    "type": "Bug"
+  },
+  {
+    "tier": "D-",
+    "name": "Tapu Bulu",
+    "type": "Bug"
+  },
+  {
+    "tier": "F",
+    "name": "Kingler",
+    "type": "Bug"
+  },
+  {
+    "tier": "F",
+    "name": "Ribombee",
+    "type": "Bug"
+  },
+  {
+    "tier": "F",
+    "name": "Galvantula",
+    "type": "Bug"
+  },
+  {
+    "tier": "F",
+    "name": "Naganadel",
+    "type": "Bug"
+  },
+  {
+    "tier": "F",
+    "name": "Absol",
+    "type": "Bug"
+  },
+  {
+    "tier": "F",
+    "name": "Hisuian Samurott",
+    "type": "Bug"
+  },
+  {
+    "tier": "F",
+    "name": "Mothim",
+    "type": "Bug"
+  },
+  {
+    "tier": "F",
+    "name": "Beautifly",
+    "type": "Bug"
+  },
+  {
+    "tier": "F",
+    "name": "Vivillon",
+    "type": "Bug"
+  },
+  {
+    "tier": "F",
+    "name": "Ninjask",
+    "type": "Bug"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Drapion",
+    "type": "Bug"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Nidoking",
+    "type": "Bug"
+  },
+  {
+    "tier": "F",
+    "name": "Sneasler",
+    "type": "Bug"
+  },
+  {
+    "tier": "F",
+    "name": "Crustle",
+    "type": "Bug"
+  },
+  {
+    "tier": "F",
+    "name": "Butterfree",
+    "type": "Bug"
+  },
+  {
+    "tier": "F",
+    "name": "Vespiqueen",
+    "type": "Bug"
+  },
+  {
+    "tier": "F",
+    "name": "Rhydon",
+    "type": "Bug"
+  },
+  {
+    "tier": "F",
+    "name": "Samurott",
+    "type": "Bug"
+  },
+  {
+    "tier": "F",
+    "name": "Nidoking",
+    "type": "Bug"
+  },
+  {
+    "tier": "A+",
+    "name": "Shadow Tyranitar",
+    "type": "Dark"
+  },
+  {
+    "tier": "B+",
+    "name": "Shadow Weavile",
+    "type": "Dark"
+  },
+  {
+    "tier": "B",
+    "name": "Yveltal",
+    "type": "Dark"
+  },
+  {
+    "tier": "B",
+    "name": "Tyranitar",
+    "type": "Dark"
+  },
+  {
+    "tier": "B",
+    "name": "Hydreigon",
+    "type": "Dark"
+  },
+  {
+    "tier": "B-",
+    "name": "Darkrai",
+    "type": "Dark"
+  },
+  {
+    "tier": "C+",
+    "name": "Shadow Houndoom",
+    "type": "Dark"
+  },
+  {
+    "tier": "C+",
+    "name": "Shadow Honchkrow",
+    "type": "Dark"
+  },
+  {
+    "tier": "C+",
+    "name": "Shadow Cacturne",
+    "type": "Dark"
+  },
+  {
+    "tier": "C+",
+    "name": "Incineroar",
+    "type": "Dark"
+  },
+  {
+    "tier": "C+",
+    "name": "Galarian Moltres",
+    "type": "Dark"
+  },
+  {
+    "tier": "C",
+    "name": "Weavile",
+    "type": "Dark"
+  },
+  {
+    "tier": "C",
+    "name": "Shadow Absol",
+    "type": "Dark"
+  },
+  {
+    "tier": "C",
+    "name": "Guzzlord",
+    "type": "Dark"
+  },
+  {
+    "tier": "C",
+    "name": "Hoopa (Unbound)",
+    "type": "Dark"
+  },
+  {
+    "tier": "C-",
+    "name": "Shadow Gengar",
+    "type": "Dark"
+  },
+  {
+    "tier": "C-",
+    "name": "Zarude",
+    "type": "Dark"
+  },
+  {
+    "tier": "C-",
+    "name": "Shadow Shiftry",
+    "type": "Dark"
+  },
+  {
+    "tier": "C-",
+    "name": "Dusk Mane Necrozma",
+    "type": "Dark"
+  },
+  {
+    "tier": "C-",
+    "name": "Zoroark",
+    "type": "Dark"
+  },
+  {
+    "tier": "D+",
+    "name": "Shadow Conkeldurr",
+    "type": "Dark"
+  },
+  {
+    "tier": "D+",
+    "name": "Shadow Alolan Muk",
+    "type": "Dark"
+  },
+  {
+    "tier": "D+",
+    "name": "Shadow Sharpedo",
+    "type": "Dark"
+  },
+  {
+    "tier": "D+",
+    "name": "Houndoom",
+    "type": "Dark"
+  },
+  {
+    "tier": "D+",
+    "name": "Cacturn",
+    "type": "Dark"
+  },
+  {
+    "tier": "D+",
+    "name": "Dawn Wings Necrozma",
+    "type": "Dark"
+  },
+  {
+    "tier": "D",
+    "name": "Shadow Crawdaunt",
+    "type": "Dark"
+  },
+  {
+    "tier": "D",
+    "name": "Honchkrow",
+    "type": "Dark"
+  },
+  {
+    "tier": "D",
+    "name": "Krookodile",
+    "type": "Dark"
+  },
+  {
+    "tier": "D",
+    "name": "Shadow Gyarados",
+    "type": "Dark"
+  },
+  {
+    "tier": "D",
+    "name": "Absol",
+    "type": "Dark"
+  },
+  {
+    "tier": "D",
+    "name": "Deoxys (Attack Forme)",
+    "type": "Dark"
+  },
+  {
+    "tier": "D",
+    "name": "Bisharp",
+    "type": "Dark"
+  },
+  {
+    "tier": "D-",
+    "name": "Zamazenta",
+    "type": "Dark"
+  },
+  {
+    "tier": "D-",
+    "name": "Shadow Archeops",
+    "type": "Dark"
+  },
+  {
+    "tier": "D-",
+    "name": "Shadow Arcanine",
+    "type": "Dark"
+  },
+  {
+    "tier": "D-",
+    "name": "Pangoro",
+    "type": "Dark"
+  },
+  {
+    "tier": "D-",
+    "name": "Hisuian Samurott",
+    "type": "Dark"
+  },
+  {
+    "tier": "D-",
+    "name": "Shadow Luxray",
+    "type": "Dark"
+  },
+  {
+    "tier": "D-",
+    "name": "Gengar",
+    "type": "Dark"
+  },
+  {
+    "tier": "D-",
+    "name": "Necrozma",
+    "type": "Dark"
+  },
+  {
+    "tier": "D-",
+    "name": "Shadow Mismagius",
+    "type": "Dark"
+  },
+  {
+    "tier": "D-",
+    "name": "Shiftry",
+    "type": "Dark"
+  },
+  {
+    "tier": "F",
+    "name": "Reshiram",
+    "type": "Dark"
+  },
+  {
+    "tier": "F",
+    "name": "Zekrom",
+    "type": "Dark"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Skuntank",
+    "type": "Dark"
+  },
+  {
+    "tier": "F",
+    "name": "Lokix",
+    "type": "Dark"
+  },
+  {
+    "tier": "F",
+    "name": "Kartana",
+    "type": "Dark"
+  },
+  {
+    "tier": "F",
+    "name": "Conkeldurr",
+    "type": "Dark"
+  },
+  {
+    "tier": "F",
+    "name": "Alolan Muk",
+    "type": "Dark"
+  },
+  {
+    "tier": "F",
+    "name": "Tornadus (Incarnate Forme)",
+    "type": "Dark"
+  },
+  {
+    "tier": "F",
+    "name": "Sharpedo",
+    "type": "Dark"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Drapion",
+    "type": "Dark"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Sneasel",
+    "type": "Dark"
+  },
+  {
+    "tier": "F",
+    "name": "Archeops",
+    "type": "Dark"
+  },
+  {
+    "tier": "A+",
+    "name": "Dialga (Origin Forme)",
+    "type": "Dragon"
+  },
+  {
+    "tier": "A",
+    "name": "Palkia (Origin Forme)",
+    "type": "Dragon"
+  },
+  {
+    "tier": "A",
+    "name": "Shadow Salamence",
+    "type": "Dragon"
+  },
+  {
+    "tier": "A-",
+    "name": "Shadow Garchomp",
+    "type": "Dragon"
+  },
+  {
+    "tier": "A-",
+    "name": "Shadow Dragonite",
+    "type": "Dragon"
+  },
+  {
+    "tier": "B-",
+    "name": "Palkia",
+    "type": "Dragon"
+  },
+  {
+    "tier": "B-",
+    "name": "Shadow Latios",
+    "type": "Dragon"
+  },
+  {
+    "tier": "B-",
+    "name": "Salamence",
+    "type": "Dragon"
+  },
+  {
+    "tier": "B-",
+    "name": "Rayquaza",
+    "type": "Dragon"
+  },
+  {
+    "tier": "C+",
+    "name": "Dialga",
+    "type": "Dragon"
+  },
+  {
+    "tier": "C+",
+    "name": "Haxorus",
+    "type": "Dragon"
+  },
+  {
+    "tier": "C+",
+    "name": "Dragonite",
+    "type": "Dragon"
+  },
+  {
+    "tier": "C+",
+    "name": "Garchomp",
+    "type": "Dragon"
+  },
+  {
+    "tier": "C",
+    "name": "Shadow Alolan Exeggutor",
+    "type": "Dragon"
+  },
+  {
+    "tier": "C",
+    "name": "Kyurem",
+    "type": "Dragon"
+  },
+  {
+    "tier": "C",
+    "name": "Dragapult",
+    "type": "Dragon"
+  },
+  {
+    "tier": "C-",
+    "name": "Zekrom",
+    "type": "Dragon"
+  },
+  {
+    "tier": "C-",
+    "name": "Reshiram",
+    "type": "Dragon"
+  },
+  {
+    "tier": "C-",
+    "name": "Shadow Latias",
+    "type": "Dragon"
+  },
+  {
+    "tier": "C-",
+    "name": "Shadow Rampardos",
+    "type": "Dragon"
+  },
+  {
+    "tier": "D+",
+    "name": "Latios",
+    "type": "Dragon"
+  },
+  {
+    "tier": "D",
+    "name": "Dawn Wings Necrozma",
+    "type": "Dragon"
+  },
+  {
+    "tier": "D",
+    "name": "Baxcalibur",
+    "type": "Dragon"
+  },
+  {
+    "tier": "D",
+    "name": "Dusk Mane Necrozma",
+    "type": "Dragon"
+  },
+  {
+    "tier": "D",
+    "name": "Shadow Flygon",
+    "type": "Dragon"
+  },
+  {
+    "tier": "D",
+    "name": "Kommo-o",
+    "type": "Dragon"
+  },
+  {
+    "tier": "D",
+    "name": "Shadow Gyarados",
+    "type": "Dragon"
+  },
+  {
+    "tier": "D",
+    "name": "Giratina (Origin Forme)",
+    "type": "Dragon"
+  },
+  {
+    "tier": "D",
+    "name": "Alolan Exeggutor",
+    "type": "Dragon"
+  },
+  {
+    "tier": "D-",
+    "name": "Zygarde (Complete Forme)",
+    "type": "Dragon"
+  },
+  {
+    "tier": "D-",
+    "name": "Tyrantrum",
+    "type": "Dragon"
+  },
+  {
+    "tier": "D-",
+    "name": "Zygarde (50% Forme)",
+    "type": "Dragon"
+  },
+  {
+    "tier": "D-",
+    "name": "Hydreigon",
+    "type": "Dragon"
+  },
+  {
+    "tier": "D-",
+    "name": "Latias",
+    "type": "Dragon"
+  },
+  {
+    "tier": "F",
+    "name": "Goodra",
+    "type": "Dragon"
+  },
+  {
+    "tier": "F",
+    "name": "Guzzlord",
+    "type": "Dragon"
+  },
+  {
+    "tier": "F",
+    "name": "Giratina (Altered Forme)",
+    "type": "Dragon"
+  },
+  {
+    "tier": "F",
+    "name": "Rampardos",
+    "type": "Dragon"
+  },
+  {
+    "tier": "F",
+    "name": "Druddigon",
+    "type": "Dragon"
+  },
+  {
+    "tier": "F",
+    "name": "Necrozma",
+    "type": "Dragon"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Rhyperior",
+    "type": "Dragon"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Kingdra",
+    "type": "Dragon"
+  },
+  {
+    "tier": "F",
+    "name": "Drampa",
+    "type": "Dragon"
+  },
+  {
+    "tier": "F",
+    "name": "Flygon",
+    "type": "Dragon"
+  },
+  {
+    "tier": "F",
+    "name": "Gyarados",
+    "type": "Dragon"
+  },
+  {
+    "tier": "F",
+    "name": "Landorus (Incarnate Forme)",
+    "type": "Dragon"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Archeops",
+    "type": "Dragon"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Charizard",
+    "type": "Dragon"
+  },
+  {
+    "tier": "F",
+    "name": "Fraxure",
+    "type": "Dragon"
+  },
+  {
+    "tier": "F",
+    "name": "Naganadel",
+    "type": "Dragon"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Snorlax",
+    "type": "Dragon"
+  },
+  {
+    "tier": "F",
+    "name": "Kingdra",
+    "type": "Dragon"
+  },
+  {
+    "tier": "F",
+    "name": "Archeops",
+    "type": "Dragon"
+  },
+  {
+    "tier": "A+",
+    "name": "Shadow Magnezone",
+    "type": "Electric"
+  },
+  {
+    "tier": "A+",
+    "name": "Shadow Raikou",
+    "type": "Electric"
+  },
+  {
+    "tier": "A+",
+    "name": "Xurkitree",
+    "type": "Electric"
+  },
+  {
+    "tier": "A",
+    "name": "Shadow Luxray",
+    "type": "Electric"
+  },
+  {
+    "tier": "A",
+    "name": "Shadow Electivire",
+    "type": "Electric"
+  },
+  {
+    "tier": "A-",
+    "name": "Zekrom",
+    "type": "Electric"
+  },
+  {
+    "tier": "A-",
+    "name": "Shadow Zapdos",
+    "type": "Electric"
+  },
+  {
+    "tier": "B",
+    "name": "Magnezone",
+    "type": "Electric"
+  },
+  {
+    "tier": "B",
+    "name": "Shadow Mewtwo",
+    "type": "Electric"
+  },
+  {
+    "tier": "B",
+    "name": "Thundurus (Therian Forme)",
+    "type": "Electric"
+  },
+  {
+    "tier": "B",
+    "name": "Raikou",
+    "type": "Electric"
+  },
+  {
+    "tier": "B-",
+    "name": "Shadow Zebstrika",
+    "type": "Electric"
+  },
+  {
+    "tier": "B-",
+    "name": "Luxray",
+    "type": "Electric"
+  },
+  {
+    "tier": "B-",
+    "name": "Electivire",
+    "type": "Electric"
+  },
+  {
+    "tier": "C+",
+    "name": "Zapdos",
+    "type": "Electric"
+  },
+  {
+    "tier": "C+",
+    "name": "Shadow Manectric",
+    "type": "Electric"
+  },
+  {
+    "tier": "C+",
+    "name": "Shadow Alolan Golem",
+    "type": "Electric"
+  },
+  {
+    "tier": "C+",
+    "name": "Pawmot",
+    "type": "Electric"
+  },
+  {
+    "tier": "C",
+    "name": "Shadow Arcanine",
+    "type": "Electric"
+  },
+  {
+    "tier": "C",
+    "name": "Shadow Magneton",
+    "type": "Electric"
+  },
+  {
+    "tier": "C",
+    "name": "Vikavolt",
+    "type": "Electric"
+  },
+  {
+    "tier": "C-",
+    "name": "Mewtwo",
+    "type": "Electric"
+  },
+  {
+    "tier": "D+",
+    "name": "Zebstrika",
+    "type": "Electric"
+  },
+  {
+    "tier": "D+",
+    "name": "Thundurus (Incarnate Forme)",
+    "type": "Electric"
+  },
+  {
+    "tier": "D+",
+    "name": "Eelektross",
+    "type": "Electric"
+  },
+  {
+    "tier": "D+",
+    "name": "Genesect - Shock Drive",
+    "type": "Electric"
+  },
+  {
+    "tier": "D+",
+    "name": "Tapu Koko",
+    "type": "Electric"
+  },
+  {
+    "tier": "D+",
+    "name": "Regieleki",
+    "type": "Electric"
+  },
+  {
+    "tier": "D",
+    "name": "Jolteon",
+    "type": "Electric"
+  },
+  {
+    "tier": "D",
+    "name": "Manectric",
+    "type": "Electric"
+  },
+  {
+    "tier": "D",
+    "name": "Shadow Regigigas",
+    "type": "Electric"
+  },
+  {
+    "tier": "D",
+    "name": "Alolan Golem",
+    "type": "Electric"
+  },
+  {
+    "tier": "D",
+    "name": "Deoxys (Normal Forme)",
+    "type": "Electric"
+  },
+  {
+    "tier": "D",
+    "name": "Alolan Raichu",
+    "type": "Electric"
+  },
+  {
+    "tier": "D",
+    "name": "Shadow Ampharos",
+    "type": "Electric"
+  },
+  {
+    "tier": "D",
+    "name": "Zacian",
+    "type": "Electric"
+  },
+  {
+    "tier": "D",
+    "name": "Shadow Electabuzz",
+    "type": "Electric"
+  },
+  {
+    "tier": "D",
+    "name": "Magneton",
+    "type": "Electric"
+  },
+  {
+    "tier": "D",
+    "name": "Arcanine",
+    "type": "Electric"
+  },
+  {
+    "tier": "D-",
+    "name": "Shadow Porygon-Z",
+    "type": "Electric"
+  },
+  {
+    "tier": "D-",
+    "name": "Raichu",
+    "type": "Electric"
+  },
+  {
+    "tier": "D-",
+    "name": "Togedemaru",
+    "type": "Electric"
+  },
+  {
+    "tier": "D-",
+    "name": "Melmetal",
+    "type": "Electric"
+  },
+  {
+    "tier": "D-",
+    "name": "Shadow Electrode",
+    "type": "Electric"
+  },
+  {
+    "tier": "F",
+    "name": "Mew",
+    "type": "Electric"
+  },
+  {
+    "tier": "F",
+    "name": "Meloetta (Aria Forme)",
+    "type": "Electric"
+  },
+  {
+    "tier": "F",
+    "name": "Rotom (Appliance Formes)",
+    "type": "Electric"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Galvantula",
+    "type": "Electric"
+  },
+  {
+    "tier": "F",
+    "name": "Hisuian Arcanine",
+    "type": "Electric"
+  },
+  {
+    "tier": "F",
+    "name": "Regigigas*",
+    "type": "Electric"
+  },
+  {
+    "tier": "F",
+    "name": "Heliolisk",
+    "type": "Electric"
+  },
+  {
+    "tier": "F",
+    "name": "Ampharos",
+    "type": "Electric"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Ursaluna",
+    "type": "Electric"
+  },
+  {
+    "tier": "S",
+    "name": "Xurkitree",
+    "type": "Fairy"
+  },
+  {
+    "tier": "A+",
+    "name": "Shadow Gardevoir",
+    "type": "Fairy"
+  },
+  {
+    "tier": "A+",
+    "name": "Tapu Bulu",
+    "type": "Fairy"
+  },
+  {
+    "tier": "A+",
+    "name": "Enamorus (Incarnate Forme)",
+    "type": "Fairy"
+  },
+  {
+    "tier": "A+",
+    "name": "Zacian",
+    "type": "Fairy"
+  },
+  {
+    "tier": "A+",
+    "name": "Tapu Koko",
+    "type": "Fairy"
+  },
+  {
+    "tier": "A-",
+    "name": "Tapu Lele",
+    "type": "Fairy"
+  },
+  {
+    "tier": "A-",
+    "name": "Xerneas",
+    "type": "Fairy"
+  },
+  {
+    "tier": "B+",
+    "name": "Shadow Alakazam",
+    "type": "Fairy"
+  },
+  {
+    "tier": "B+",
+    "name": "Shadow Granbull",
+    "type": "Fairy"
+  },
+  {
+    "tier": "B+",
+    "name": "Zamazenta",
+    "type": "Fairy"
+  },
+  {
+    "tier": "B",
+    "name": "Togekiss",
+    "type": "Fairy"
+  },
+  {
+    "tier": "B",
+    "name": "Shadow Ursaring",
+    "type": "Fairy"
+  },
+  {
+    "tier": "B",
+    "name": "Gardevoir",
+    "type": "Fairy"
+  },
+  {
+    "tier": "C+",
+    "name": "Sylveon",
+    "type": "Fairy"
+  },
+  {
+    "tier": "C+",
+    "name": "Meloetta (Aria Forme)",
+    "type": "Fairy"
+  },
+  {
+    "tier": "C+",
+    "name": "Gholdengo",
+    "type": "Fairy"
+  },
+  {
+    "tier": "C+",
+    "name": "Shadow Donphan",
+    "type": "Fairy"
+  },
+  {
+    "tier": "C+",
+    "name": "Primarina",
+    "type": "Fairy"
+  },
+  {
+    "tier": "C",
+    "name": "Alakazam",
+    "type": "Fairy"
+  },
+  {
+    "tier": "C",
+    "name": "Shadow Banette",
+    "type": "Fairy"
+  },
+  {
+    "tier": "C",
+    "name": "Granbull",
+    "type": "Fairy"
+  },
+  {
+    "tier": "C-",
+    "name": "Shadow Mismagius",
+    "type": "Fairy"
+  },
+  {
+    "tier": "C-",
+    "name": "Ursaring",
+    "type": "Fairy"
+  },
+  {
+    "tier": "C-",
+    "name": "Shadow Alolan Ninetales",
+    "type": "Fairy"
+  },
+  {
+    "tier": "C-",
+    "name": "Mew",
+    "type": "Fairy"
+  },
+  {
+    "tier": "C-",
+    "name": "Tapu Fini",
+    "type": "Fairy"
+  },
+  {
+    "tier": "D+",
+    "name": "Florges",
+    "type": "Fairy"
+  },
+  {
+    "tier": "D+",
+    "name": "Beartic",
+    "type": "Fairy"
+  },
+  {
+    "tier": "D+",
+    "name": "Galarian Rapidash",
+    "type": "Fairy"
+  },
+  {
+    "tier": "D",
+    "name": "Lunala",
+    "type": "Fairy"
+  },
+  {
+    "tier": "D",
+    "name": "Shadow Kadabra",
+    "type": "Fairy"
+  },
+  {
+    "tier": "D",
+    "name": "Meowscarada",
+    "type": "Fairy"
+  },
+  {
+    "tier": "D",
+    "name": "Clefable",
+    "type": "Fairy"
+  },
+  {
+    "tier": "D",
+    "name": "Donphan",
+    "type": "Fairy"
+  },
+  {
+    "tier": "D",
+    "name": "Celebi",
+    "type": "Fairy"
+  },
+  {
+    "tier": "D",
+    "name": "Jirachi",
+    "type": "Fairy"
+  },
+  {
+    "tier": "D",
+    "name": "Ribombee",
+    "type": "Fairy"
+  },
+  {
+    "tier": "D",
+    "name": "Banette",
+    "type": "Fairy"
+  },
+  {
+    "tier": "D",
+    "name": "Roserade",
+    "type": "Fairy"
+  },
+  {
+    "tier": "D",
+    "name": "Slaking",
+    "type": "Fairy"
+  },
+  {
+    "tier": "D-",
+    "name": "Hisuian Braviary",
+    "type": "Fairy"
+  },
+  {
+    "tier": "D-",
+    "name": "Mismagius",
+    "type": "Fairy"
+  },
+  {
+    "tier": "D-",
+    "name": "Alolan Ninetales",
+    "type": "Fairy"
+  },
+  {
+    "tier": "D-",
+    "name": "Perrserker",
+    "type": "Fairy"
+  },
+  {
+    "tier": "F",
+    "name": "Galarian Weezing",
+    "type": "Fairy"
+  },
+  {
+    "tier": "F",
+    "name": "Slurpuff",
+    "type": "Fairy"
+  },
+  {
+    "tier": "F",
+    "name": "Stoutland",
+    "type": "Fairy"
+  },
+  {
+    "tier": "F",
+    "name": "Wigglytuff",
+    "type": "Fairy"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Liepard",
+    "type": "Fairy"
+  },
+  {
+    "tier": "F",
+    "name": "Aromatisse",
+    "type": "Fairy"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Mawile",
+    "type": "Fairy"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Bellossom",
+    "type": "Fairy"
+  },
+  {
+    "tier": "A+",
+    "name": "Shadow Moltres",
+    "type": "Fire"
+  },
+  {
+    "tier": "A+",
+    "name": "Shadow Chandelure",
+    "type": "Fire"
+  },
+  {
+    "tier": "A+",
+    "name": "Shadow Entei",
+    "type": "Fire"
+  },
+  {
+    "tier": "A",
+    "name": "Shadow Blaziken",
+    "type": "Fire"
+  },
+  {
+    "tier": "A-",
+    "name": "Heatran",
+    "type": "Fire"
+  },
+  {
+    "tier": "A-",
+    "name": "Reshiram",
+    "type": "Fire"
+  },
+  {
+    "tier": "A-",
+    "name": "Volcarona",
+    "type": "Fire"
+  },
+  {
+    "tier": "B+",
+    "name": "Shadow Charizard",
+    "type": "Fire"
+  },
+  {
+    "tier": "B+",
+    "name": "Shadow Ho-Oh",
+    "type": "Fire"
+  },
+  {
+    "tier": "B+",
+    "name": "Shadow Magmortar",
+    "type": "Fire"
+  },
+  {
+    "tier": "B+",
+    "name": "Shadow Darmanitan",
+    "type": "Fire"
+  },
+  {
+    "tier": "B+",
+    "name": "Shadow Infernape",
+    "type": "Fire"
+  },
+  {
+    "tier": "B",
+    "name": "Shadow Arcanine",
+    "type": "Fire"
+  },
+  {
+    "tier": "B",
+    "name": "Moltres",
+    "type": "Fire"
+  },
+  {
+    "tier": "B",
+    "name": "Chandelure",
+    "type": "Fire"
+  },
+  {
+    "tier": "B",
+    "name": "Shadow Typhlosion",
+    "type": "Fire"
+  },
+  {
+    "tier": "B",
+    "name": "Entei",
+    "type": "Fire"
+  },
+  {
+    "tier": "B",
+    "name": "Shadow Mewtwo",
+    "type": "Fire"
+  },
+  {
+    "tier": "B-",
+    "name": "Ho-Oh",
+    "type": "Fire"
+  },
+  {
+    "tier": "B-",
+    "name": "Blacephalon",
+    "type": "Fire"
+  },
+  {
+    "tier": "B-",
+    "name": "Blaziken",
+    "type": "Fire"
+  },
+  {
+    "tier": "B-",
+    "name": "Shadow Rampardos",
+    "type": "Fire"
+  },
+  {
+    "tier": "C+",
+    "name": "Delphox",
+    "type": "Fire"
+  },
+  {
+    "tier": "C+",
+    "name": "Shadow Groudon",
+    "type": "Fire"
+  },
+  {
+    "tier": "C+",
+    "name": "Flareon",
+    "type": "Fire"
+  },
+  {
+    "tier": "C",
+    "name": "Charizard",
+    "type": "Fire"
+  },
+  {
+    "tier": "C",
+    "name": "Solgaleo",
+    "type": "Fire"
+  },
+  {
+    "tier": "C",
+    "name": "Victini",
+    "type": "Fire"
+  },
+  {
+    "tier": "C",
+    "name": "Emboar",
+    "type": "Fire"
+  },
+  {
+    "tier": "C",
+    "name": "Magmortar",
+    "type": "Fire"
+  },
+  {
+    "tier": "C",
+    "name": "Darmanitan",
+    "type": "Fire"
+  },
+  {
+    "tier": "C",
+    "name": "Infernape",
+    "type": "Fire"
+  },
+  {
+    "tier": "C-",
+    "name": "Shadow Salamence",
+    "type": "Fire"
+  },
+  {
+    "tier": "C-",
+    "name": "Shadow Garchomp",
+    "type": "Fire"
+  },
+  {
+    "tier": "C-",
+    "name": "Shadow Houndoom",
+    "type": "Fire"
+  },
+  {
+    "tier": "C-",
+    "name": "Typhlosion",
+    "type": "Fire"
+  },
+  {
+    "tier": "C-",
+    "name": "Mewtwo",
+    "type": "Fire"
+  },
+  {
+    "tier": "C-",
+    "name": "Incineroar",
+    "type": "Fire"
+  },
+  {
+    "tier": "D+",
+    "name": "Shadow Tyranitar",
+    "type": "Fire"
+  },
+  {
+    "tier": "D+",
+    "name": "Shadow Electivire",
+    "type": "Fire"
+  },
+  {
+    "tier": "D+",
+    "name": "Shadow Alakazam",
+    "type": "Fire"
+  },
+  {
+    "tier": "D+",
+    "name": "Shadow Ninetales",
+    "type": "Fire"
+  },
+  {
+    "tier": "D+",
+    "name": "Hisuian Arcanine",
+    "type": "Fire"
+  },
+  {
+    "tier": "D+",
+    "name": "Ramparados",
+    "type": "Fire"
+  },
+  {
+    "tier": "D",
+    "name": "Ceruledge",
+    "type": "Fire"
+  },
+  {
+    "tier": "D",
+    "name": "Arcanine",
+    "type": "Fire"
+  },
+  {
+    "tier": "D",
+    "name": "Palkia (Origin Forme)",
+    "type": "Fire"
+  },
+  {
+    "tier": "D",
+    "name": "Hisuian Typhlosion",
+    "type": "Fire"
+  },
+  {
+    "tier": "D",
+    "name": "Cinderace",
+    "type": "Fire"
+  },
+  {
+    "tier": "D",
+    "name": "Armarouge",
+    "type": "Fire"
+  },
+  {
+    "tier": "D-",
+    "name": "Shadow Magmar",
+    "type": "Fire"
+  },
+  {
+    "tier": "D-",
+    "name": "Salamence",
+    "type": "Fire"
+  },
+  {
+    "tier": "D-",
+    "name": "Pyroar",
+    "type": "Fire"
+  },
+  {
+    "tier": "D-",
+    "name": "Houndoom",
+    "type": "Fire"
+  },
+  {
+    "tier": "S",
+    "name": "Keldeo",
+    "type": "Fighting"
+  },
+  {
+    "tier": "A+",
+    "name": "Terrakion",
+    "type": "Fighting"
+  },
+  {
+    "tier": "B+",
+    "name": "Shadow Conkeldurr",
+    "type": "Fighting"
+  },
+  {
+    "tier": "B-",
+    "name": "Shadow Hariyama",
+    "type": "Fighting"
+  },
+  {
+    "tier": "B-",
+    "name": "Shadow Mewtwo",
+    "type": "Fighting"
+  },
+  {
+    "tier": "B-",
+    "name": "Shadow Machamp",
+    "type": "Fighting"
+  },
+  {
+    "tier": "C+",
+    "name": "Cobalion",
+    "type": "Fighting"
+  },
+  {
+    "tier": "C+",
+    "name": "Pheromosa",
+    "type": "Fighting"
+  },
+  {
+    "tier": "C",
+    "name": "Lucario",
+    "type": "Fighting"
+  },
+  {
+    "tier": "C",
+    "name": "Shadow Sawk",
+    "type": "Fighting"
+  },
+  {
+    "tier": "C",
+    "name": "Virizion",
+    "type": "Fighting"
+  },
+  {
+    "tier": "C",
+    "name": "Conkeldurr",
+    "type": "Fighting"
+  },
+  {
+    "tier": "C",
+    "name": "Shadow Regigigas",
+    "type": "Fighting"
+  },
+  {
+    "tier": "C",
+    "name": "Shadow Gallade",
+    "type": "Fighting"
+  },
+  {
+    "tier": "C-",
+    "name": "Hawlucha",
+    "type": "Fighting"
+  },
+  {
+    "tier": "C-",
+    "name": "Hisuian Decidueye",
+    "type": "Fighting"
+  },
+  {
+    "tier": "C-",
+    "name": "Mewtwo",
+    "type": "Fighting"
+  },
+  {
+    "tier": "C-",
+    "name": "Shadow Toxicroak",
+    "type": "Fighting"
+  },
+  {
+    "tier": "C-",
+    "name": "Shadow Dragonite",
+    "type": "Fighting"
+  },
+  {
+    "tier": "D+",
+    "name": "Shadow Gengar",
+    "type": "Fighting"
+  },
+  {
+    "tier": "D+",
+    "name": "Emboar",
+    "type": "Fighting"
+  },
+  {
+    "tier": "D+",
+    "name": "Machamp",
+    "type": "Fighting"
+  },
+  {
+    "tier": "D+",
+    "name": "Hariyama",
+    "type": "Fighting"
+  },
+  {
+    "tier": "D+",
+    "name": "Shadow Blaziken",
+    "type": "Fighting"
+  },
+  {
+    "tier": "D+",
+    "name": "Yveltal",
+    "type": "Fighting"
+  },
+  {
+    "tier": "D+",
+    "name": "Bewear",
+    "type": "Fighting"
+  },
+  {
+    "tier": "D+",
+    "name": "Breloom",
+    "type": "Fighting"
+  },
+  {
+    "tier": "D+",
+    "name": "Shadow Rhyperior",
+    "type": "Fighting"
+  },
+  {
+    "tier": "D",
+    "name": "Buzzwole",
+    "type": "Fighting"
+  },
+  {
+    "tier": "D",
+    "name": "Zamazenta",
+    "type": "Fighting"
+  },
+  {
+    "tier": "D",
+    "name": "Shadow Poliwrath",
+    "type": "Fighting"
+  },
+  {
+    "tier": "D",
+    "name": "Shadow Cacturn",
+    "type": "Fighting"
+  },
+  {
+    "tier": "D",
+    "name": "Sawk",
+    "type": "Fighting"
+  },
+  {
+    "tier": "D",
+    "name": "Annihilape",
+    "type": "Fighting"
+  },
+  {
+    "tier": "D",
+    "name": "Shadow Machoke",
+    "type": "Fighting"
+  },
+  {
+    "tier": "D",
+    "name": "Landorus (Therian Forme)",
+    "type": "Fighting"
+  },
+  {
+    "tier": "D",
+    "name": "Regigigas",
+    "type": "Fighting"
+  },
+  {
+    "tier": "D",
+    "name": "Shadow Hitmonlee",
+    "type": "Fighting"
+  },
+  {
+    "tier": "D",
+    "name": "Shadow Alakazam",
+    "type": "Fighting"
+  },
+  {
+    "tier": "D",
+    "name": "Gallade",
+    "type": "Fighting"
+  },
+  {
+    "tier": "D-",
+    "name": "Galarian Zapdos",
+    "type": "Fighting"
+  },
+  {
+    "tier": "D-",
+    "name": "Darkrai",
+    "type": "Fighting"
+  },
+  {
+    "tier": "D-",
+    "name": "Togekiss",
+    "type": "Fighting"
+  },
+  {
+    "tier": "D-",
+    "name": "Pangoro",
+    "type": "Fighting"
+  },
+  {
+    "tier": "D-",
+    "name": "Chesnaut",
+    "type": "Fighting"
+  },
+  {
+    "tier": "D-",
+    "name": "Passimian",
+    "type": "Fighting"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Sneasler",
+    "type": "Fighting"
+  },
+  {
+    "tier": "F",
+    "name": "Dragonite",
+    "type": "Fighting"
+  },
+  {
+    "tier": "F",
+    "name": "Toxicroak",
+    "type": "Fighting"
+  },
+  {
+    "tier": "F",
+    "name": "Blaziken",
+    "type": "Fighting"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Ursaring",
+    "type": "Fighting"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Golurk",
+    "type": "Fighting"
+  },
+  {
+    "tier": "F",
+    "name": "Heracross",
+    "type": "Fighting"
+  },
+  {
+    "tier": "F",
+    "name": "Sirfetch'd",
+    "type": "Fighting"
+  },
+  {
+    "tier": "F",
+    "name": "Poliwrath",
+    "type": "Fighting"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Darmanitan",
+    "type": "Fighting"
+  },
+  {
+    "tier": "F",
+    "name": "Alakazam",
+    "type": "Fighting"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Infernape",
+    "type": "Fighting"
+  },
+  {
+    "tier": "F",
+    "name": "Sneasler",
+    "type": "Fighting"
+  },
+  {
+    "tier": "S",
+    "name": "Rayquaza",
+    "type": "Flying"
+  },
+  {
+    "tier": "A+",
+    "name": "Yveltal",
+    "type": "Flying"
+  },
+  {
+    "tier": "A+",
+    "name": "Shadow Salamence",
+    "type": "Flying"
+  },
+  {
+    "tier": "A-",
+    "name": "Shadow Lugia",
+    "type": "Flying"
+  },
+  {
+    "tier": "A-",
+    "name": "Shadow Ho-Oh",
+    "type": "Flying"
+  },
+  {
+    "tier": "A-",
+    "name": "Shadow Unfezant",
+    "type": "Flying"
+  },
+  {
+    "tier": "A-",
+    "name": "Shadow Moltres",
+    "type": "Flying"
+  },
+  {
+    "tier": "B+",
+    "name": "Shadow Honchkrow",
+    "type": "Flying"
+  },
+  {
+    "tier": "B+",
+    "name": "Shadow Staraptor",
+    "type": "Flying"
+  },
+  {
+    "tier": "B+",
+    "name": "Lugia",
+    "type": "Flying"
+  },
+  {
+    "tier": "B+",
+    "name": "Shadow Zapdos",
+    "type": "Flying"
+  },
+  {
+    "tier": "B",
+    "name": "Galarian Articuno",
+    "type": "Flying"
+  },
+  {
+    "tier": "B",
+    "name": "Salamence",
+    "type": "Flying"
+  },
+  {
+    "tier": "B-",
+    "name": "Braviary",
+    "type": "Flying"
+  },
+  {
+    "tier": "B-",
+    "name": "Tornadus (Incarnate Forme)",
+    "type": "Flying"
+  },
+  {
+    "tier": "C+",
+    "name": "Enamorus (Incarnate Forme)",
+    "type": "Flying"
+  },
+  {
+    "tier": "C+",
+    "name": "Shadow Dragonite",
+    "type": "Flying"
+  },
+  {
+    "tier": "C+",
+    "name": "Galarian Moltres",
+    "type": "Flying"
+  },
+  {
+    "tier": "C+",
+    "name": "Ho-Oh",
+    "type": "Flying"
+  },
+  {
+    "tier": "C",
+    "name": "Hisuian Braviary",
+    "type": "Flying"
+  },
+  {
+    "tier": "C",
+    "name": "Unfezant",
+    "type": "Flying"
+  },
+  {
+    "tier": "C",
+    "name": "Tornadus (Therian Forme)",
+    "type": "Flying"
+  },
+  {
+    "tier": "C",
+    "name": "Moltres",
+    "type": "Flying"
+  },
+  {
+    "tier": "C",
+    "name": "Staraptor",
+    "type": "Flying"
+  },
+  {
+    "tier": "C",
+    "name": "Honchkrow",
+    "type": "Flying"
+  },
+  {
+    "tier": "C",
+    "name": "Zapdos",
+    "type": "Flying"
+  },
+  {
+    "tier": "C",
+    "name": "Vikavolt",
+    "type": "Flying"
+  },
+  {
+    "tier": "D+",
+    "name": "Kartana",
+    "type": "Flying"
+  },
+  {
+    "tier": "D+",
+    "name": "Shadow Scyther",
+    "type": "Flying"
+  },
+  {
+    "tier": "D",
+    "name": "Dragonite",
+    "type": "Flying"
+  },
+  {
+    "tier": "D",
+    "name": "Shadow Blaziken",
+    "type": "Flying"
+  },
+  {
+    "tier": "D",
+    "name": "Shadow Pidgeot",
+    "type": "Flying"
+  },
+  {
+    "tier": "D",
+    "name": "Togekiss",
+    "type": "Flying"
+  },
+  {
+    "tier": "D",
+    "name": "Shadow Empoleon",
+    "type": "Flying"
+  },
+  {
+    "tier": "D",
+    "name": "Shadow Sneasler",
+    "type": "Flying"
+  },
+  {
+    "tier": "D-",
+    "name": "Naganadel",
+    "type": "Flying"
+  },
+  {
+    "tier": "D-",
+    "name": "Noivern",
+    "type": "Flying"
+  },
+  {
+    "tier": "D-",
+    "name": "Galarian Zapdos",
+    "type": "Flying"
+  },
+  {
+    "tier": "D-",
+    "name": "Shadow Crobat",
+    "type": "Flying"
+  },
+  {
+    "tier": "D-",
+    "name": "Shadow Skarmory",
+    "type": "Flying"
+  },
+  {
+    "tier": "D-",
+    "name": "Bombirdier",
+    "type": "Flying"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Ursaluna",
+    "type": "Flying"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Sawanna",
+    "type": "Flying"
+  },
+  {
+    "tier": "F",
+    "name": "Toucannon",
+    "type": "Flying"
+  },
+  {
+    "tier": "F",
+    "name": "Volcarona",
+    "type": "Flying"
+  },
+  {
+    "tier": "F",
+    "name": "Scyther",
+    "type": "Flying"
+  },
+  {
+    "tier": "F",
+    "name": "Tapu Koko",
+    "type": "Flying"
+  },
+  {
+    "tier": "F",
+    "name": "Pidgeot",
+    "type": "Flying"
+  },
+  {
+    "tier": "F",
+    "name": "Blaziken",
+    "type": "Flying"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Xatu",
+    "type": "Flying"
+  },
+  {
+    "tier": "F",
+    "name": "Drampa",
+    "type": "Flying"
+  },
+  {
+    "tier": "F",
+    "name": "Talonflame",
+    "type": "Flying"
+  },
+  {
+    "tier": "F",
+    "name": "Yanmega",
+    "type": "Flying"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Gliscor",
+    "type": "Flying"
+  },
+  {
+    "tier": "F",
+    "name": "Sirfetch'd",
+    "type": "Flying"
+  },
+  {
+    "tier": "S",
+    "name": "Dawn Wings Necrozma",
+    "type": "Ghost"
+  },
+  {
+    "tier": "A+",
+    "name": "Giratina (Origin Forme)",
+    "type": "Ghost"
+  },
+  {
+    "tier": "A",
+    "name": "Shadow Gengar",
+    "type": "Ghost"
+  },
+  {
+    "tier": "B+",
+    "name": "Shadow Chandelure",
+    "type": "Ghost"
+  },
+  {
+    "tier": "B",
+    "name": "Giratina (Altered Forme)",
+    "type": "Ghost"
+  },
+  {
+    "tier": "B",
+    "name": "Shadow Mewtwo",
+    "type": "Ghost"
+  },
+  {
+    "tier": "B-",
+    "name": "Gengar",
+    "type": "Ghost"
+  },
+  {
+    "tier": "B-",
+    "name": "Dragapult",
+    "type": "Ghost"
+  },
+  {
+    "tier": "C+",
+    "name": "Gholdengo",
+    "type": "Ghost"
+  },
+  {
+    "tier": "C+",
+    "name": "Shadow Banette",
+    "type": "Ghost"
+  },
+  {
+    "tier": "C-",
+    "name": "Mewtwo",
+    "type": "Ghost"
+  },
+  {
+    "tier": "C-",
+    "name": "Blacephalon",
+    "type": "Ghost"
+  },
+  {
+    "tier": "C-",
+    "name": "Chandelure",
+    "type": "Ghost"
+  },
+  {
+    "tier": "C-",
+    "name": "Shadow Haunter",
+    "type": "Ghost"
+  },
+  {
+    "tier": "C-",
+    "name": "Lunala",
+    "type": "Ghost"
+  },
+  {
+    "tier": "D+",
+    "name": "Hoopa (Confined)",
+    "type": "Ghost"
+  },
+  {
+    "tier": "D+",
+    "name": "Shadow Mismagius",
+    "type": "Ghost"
+  },
+  {
+    "tier": "D+",
+    "name": "Hoopa (Unbound)",
+    "type": "Ghost"
+  },
+  {
+    "tier": "D+",
+    "name": "Shadow Raikou",
+    "type": "Ghost"
+  },
+  {
+    "tier": "D+",
+    "name": "Hisuian Typhlosion",
+    "type": "Ghost"
+  },
+  {
+    "tier": "D+",
+    "name": "Shadow Alakazam",
+    "type": "Ghost"
+  },
+  {
+    "tier": "D+",
+    "name": "Ceruledge",
+    "type": "Ghost"
+  },
+  {
+    "tier": "D",
+    "name": "Trevenant",
+    "type": "Ghost"
+  },
+  {
+    "tier": "D",
+    "name": "Shadow Drifblim",
+    "type": "Ghost"
+  },
+  {
+    "tier": "D",
+    "name": "Banette",
+    "type": "Ghost"
+  },
+  {
+    "tier": "D",
+    "name": "Darkrai",
+    "type": "Ghost"
+  },
+  {
+    "tier": "D-",
+    "name": "Annihilape",
+    "type": "Ghost"
+  },
+  {
+    "tier": "D-",
+    "name": "Haunter",
+    "type": "Ghost"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Dusknoir",
+    "type": "Ghost"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Golurk",
+    "type": "Ghost"
+  },
+  {
+    "tier": "F",
+    "name": "Mismagius",
+    "type": "Ghost"
+  },
+  {
+    "tier": "F",
+    "name": "Raikou",
+    "type": "Ghost"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Gardevoir",
+    "type": "Ghost"
+  },
+  {
+    "tier": "F",
+    "name": "Alakazam",
+    "type": "Ghost"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Reuniclus",
+    "type": "Ghost"
+  },
+  {
+    "tier": "F",
+    "name": "Drifblim",
+    "type": "Ghost"
+  },
+  {
+    "tier": "F",
+    "name": "Gourgeist - Super",
+    "type": "Ghost"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Froslass",
+    "type": "Ghost"
+  },
+  {
+    "tier": "F",
+    "name": "Cofagrigus",
+    "type": "Ghost"
+  },
+  {
+    "tier": "F",
+    "name": "Runerigus",
+    "type": "Ghost"
+  },
+  {
+    "tier": "F",
+    "name": "Gourgeist - Large",
+    "type": "Ghost"
+  },
+  {
+    "tier": "F",
+    "name": "Espeon",
+    "type": "Ghost"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Toxicroak",
+    "type": "Ghost"
+  },
+  {
+    "tier": "F",
+    "name": "Houndstone",
+    "type": "Ghost"
+  },
+  {
+    "tier": "F",
+    "name": "Decidueye",
+    "type": "Ghost"
+  },
+  {
+    "tier": "F",
+    "name": "Gourgeist - Average",
+    "type": "Ghost"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Kadabra",
+    "type": "Ghost"
+  },
+  {
+    "tier": "F",
+    "name": "Golurk",
+    "type": "Ghost"
+  },
+  {
+    "tier": "F",
+    "name": "Dusknoir",
+    "type": "Ghost"
+  },
+  {
+    "tier": "F",
+    "name": "Inteleon",
+    "type": "Ghost"
+  },
+  {
+    "tier": "F",
+    "name": "Gardevoir",
+    "type": "Ghost"
+  },
+  {
+    "tier": "F",
+    "name": "Skeledirge",
+    "type": "Ghost"
+  },
+  {
+    "tier": "F",
+    "name": "Palossand",
+    "type": "Ghost"
+  },
+  {
+    "tier": "F",
+    "name": "Reuniclus",
+    "type": "Ghost"
+  },
+  {
+    "tier": "F",
+    "name": "Lucario",
+    "type": "Ghost"
+  },
+  {
+    "tier": "S",
+    "name": "Zarude",
+    "type": "Grass"
+  },
+  {
+    "tier": "S",
+    "name": "Xurkitree",
+    "type": "Grass"
+  },
+  {
+    "tier": "A+",
+    "name": "Shadow Tangrowth",
+    "type": "Grass"
+  },
+  {
+    "tier": "A+",
+    "name": "Shadow Venusaur",
+    "type": "Grass"
+  },
+  {
+    "tier": "A",
+    "name": "Decidueye",
+    "type": "Grass"
+  },
+  {
+    "tier": "A",
+    "name": "Meowscarada",
+    "type": "Grass"
+  },
+  {
+    "tier": "A",
+    "name": "Kartana",
+    "type": "Grass"
+  },
+  {
+    "tier": "A",
+    "name": "Shadow Sceptile",
+    "type": "Grass"
+  },
+  {
+    "tier": "A-",
+    "name": "Shaymin (Sky Forme)",
+    "type": "Grass"
+  },
+  {
+    "tier": "B+",
+    "name": "Shadow Torterra",
+    "type": "Grass"
+  },
+  {
+    "tier": "B+",
+    "name": "Chesnaught",
+    "type": "Grass"
+  },
+  {
+    "tier": "B+",
+    "name": "Shadow Groudon",
+    "type": "Grass"
+  },
+  {
+    "tier": "B",
+    "name": "Shadow Cacturne",
+    "type": "Grass"
+  },
+  {
+    "tier": "B",
+    "name": "Tapu Bulu",
+    "type": "Grass"
+  },
+  {
+    "tier": "B",
+    "name": "Tangrowth",
+    "type": "Grass"
+  },
+  {
+    "tier": "B",
+    "name": "Venusaur",
+    "type": "Grass"
+  },
+  {
+    "tier": "B",
+    "name": "Shadow Exeggutor",
+    "type": "Grass"
+  },
+  {
+    "tier": "B-",
+    "name": "Shadow Alolan Exeggutor",
+    "type": "Grass"
+  },
+  {
+    "tier": "B-",
+    "name": "Rillaboom",
+    "type": "Grass"
+  },
+  {
+    "tier": "C+",
+    "name": "Sceptile",
+    "type": "Grass"
+  },
+  {
+    "tier": "C+",
+    "name": "Shadow Tangela",
+    "type": "Grass"
+  },
+  {
+    "tier": "C+",
+    "name": "Roserade",
+    "type": "Grass"
+  },
+  {
+    "tier": "C+",
+    "name": "Shadow Latios",
+    "type": "Grass"
+  },
+  {
+    "tier": "C",
+    "name": "Shaymin (Land Forme)",
+    "type": "Grass"
+  },
+  {
+    "tier": "C",
+    "name": "Groudon",
+    "type": "Grass"
+  },
+  {
+    "tier": "C",
+    "name": "Shadow Ho-Oh",
+    "type": "Grass"
+  },
+  {
+    "tier": "C",
+    "name": "Torterra",
+    "type": "Grass"
+  },
+  {
+    "tier": "C",
+    "name": "Shadow Victreebel",
+    "type": "Grass"
+  },
+  {
+    "tier": "C",
+    "name": "Simisage",
+    "type": "Grass"
+  },
+  {
+    "tier": "C",
+    "name": "Tsareena",
+    "type": "Grass"
+  },
+  {
+    "tier": "C",
+    "name": "Shadow Gallade",
+    "type": "Grass"
+  },
+  {
+    "tier": "C",
+    "name": "Breloom",
+    "type": "Grass"
+  },
+  {
+    "tier": "C",
+    "name": "Gogoat",
+    "type": "Grass"
+  },
+  {
+    "tier": "C-",
+    "name": "Shadow Shiftry",
+    "type": "Grass"
+  },
+  {
+    "tier": "C-",
+    "name": "Shadow Porygon-Z",
+    "type": "Grass"
+  },
+  {
+    "tier": "C-",
+    "name": "Cacturn",
+    "type": "Grass"
+  },
+  {
+    "tier": "C-",
+    "name": "Exeggutor",
+    "type": "Grass"
+  },
+  {
+    "tier": "C-",
+    "name": "Enamorus (Incarnate Forme)",
+    "type": "Grass"
+  },
+  {
+    "tier": "C-",
+    "name": "Alolan Exeggutor",
+    "type": "Grass"
+  },
+  {
+    "tier": "C-",
+    "name": "Tornadus (Incarnate Forme)",
+    "type": "Grass"
+  },
+  {
+    "tier": "C-",
+    "name": "Celebi",
+    "type": "Grass"
+  },
+  {
+    "tier": "C-",
+    "name": "Shadow Typhlosion",
+    "type": "Grass"
+  },
+  {
+    "tier": "C-",
+    "name": "Shadow Vileplume",
+    "type": "Grass"
+  },
+  {
+    "tier": "C-",
+    "name": "Shadow Ursaring",
+    "type": "Grass"
+  },
+  {
+    "tier": "D+",
+    "name": "Shadow Gigalith",
+    "type": "Grass"
+  },
+  {
+    "tier": "D+",
+    "name": "Serperior",
+    "type": "Grass"
+  },
+  {
+    "tier": "D+",
+    "name": "Solgaleo",
+    "type": "Grass"
+  },
+  {
+    "tier": "D+",
+    "name": "Shadow Abomasnow",
+    "type": "Grass"
+  },
+  {
+    "tier": "D+",
+    "name": "Leafeon",
+    "type": "Grass"
+  },
+  {
+    "tier": "D+",
+    "name": "Shadow Ursaluna",
+    "type": "Grass"
+  },
+  {
+    "tier": "D",
+    "name": "Volcarona",
+    "type": "Grass"
+  },
+  {
+    "tier": "D",
+    "name": "Latios",
+    "type": "Grass"
+  },
+  {
+    "tier": "D",
+    "name": "Arboliva",
+    "type": "Grass"
+  },
+  {
+    "tier": "D",
+    "name": "Ho-Oh",
+    "type": "Grass"
+  },
+  {
+    "tier": "D-",
+    "name": "Leavanny",
+    "type": "Grass"
+  },
+  {
+    "tier": "D-",
+    "name": "Victreebel",
+    "type": "Grass"
+  },
+  {
+    "tier": "D-",
+    "name": "Shadow Bellossom",
+    "type": "Grass"
+  },
+  {
+    "tier": "D-",
+    "name": "Hisuian Decidueye",
+    "type": "Grass"
+  },
+  {
+    "tier": "D-",
+    "name": "Virizion",
+    "type": "Grass"
+  },
+  {
+    "tier": "D-",
+    "name": "Lilligant",
+    "type": "Grass"
+  },
+  {
+    "tier": "S",
+    "name": "Shadow Groudon",
+    "type": "Ground"
+  },
+  {
+    "tier": "A+",
+    "name": "Groudon",
+    "type": "Ground"
+  },
+  {
+    "tier": "A",
+    "name": "Shadow Garchomp",
+    "type": "Ground"
+  },
+  {
+    "tier": "A",
+    "name": "Landorus (Therian Forme)",
+    "type": "Ground"
+  },
+  {
+    "tier": "A-",
+    "name": "Shadow Excadrill",
+    "type": "Ground"
+  },
+  {
+    "tier": "B-",
+    "name": "Garchomp",
+    "type": "Ground"
+  },
+  {
+    "tier": "C+",
+    "name": "Shadow Mamoswine",
+    "type": "Ground"
+  },
+  {
+    "tier": "C+",
+    "name": "Shadow Rhyperior",
+    "type": "Ground"
+  },
+  {
+    "tier": "C+",
+    "name": "Excadrill",
+    "type": "Ground"
+  },
+  {
+    "tier": "C+",
+    "name": "Landorus (Incarnate Forme)",
+    "type": "Ground"
+  },
+  {
+    "tier": "C-",
+    "name": "Shadow Hippowdon",
+    "type": "Ground"
+  },
+  {
+    "tier": "C-",
+    "name": "Shadow Flygon",
+    "type": "Ground"
+  },
+  {
+    "tier": "C-",
+    "name": "Shadow Swampert",
+    "type": "Ground"
+  },
+  {
+    "tier": "C-",
+    "name": "Shadow Ursaluna",
+    "type": "Ground"
+  },
+  {
+    "tier": "D+",
+    "name": "Shadow Golurk",
+    "type": "Ground"
+  },
+  {
+    "tier": "D+",
+    "name": "Shadow Rhydon",
+    "type": "Ground"
+  },
+  {
+    "tier": "D+",
+    "name": "Shadow Entei",
+    "type": "Ground"
+  },
+  {
+    "tier": "D+",
+    "name": "Rhyperior",
+    "type": "Ground"
+  },
+  {
+    "tier": "D",
+    "name": "Mamoswine",
+    "type": "Ground"
+  },
+  {
+    "tier": "D",
+    "name": "Shadow Magmortar",
+    "type": "Ground"
+  },
+  {
+    "tier": "D",
+    "name": "Shadow Donphan",
+    "type": "Ground"
+  },
+  {
+    "tier": "D-",
+    "name": "Shadow Sandslash",
+    "type": "Ground"
+  },
+  {
+    "tier": "D-",
+    "name": "Shadow Golem",
+    "type": "Ground"
+  },
+  {
+    "tier": "D-",
+    "name": "Hippowdon",
+    "type": "Ground"
+  },
+  {
+    "tier": "D-",
+    "name": "Shadow Ho-Oh",
+    "type": "Ground"
+  },
+  {
+    "tier": "D-",
+    "name": "Shadow Arcanine",
+    "type": "Ground"
+  },
+  {
+    "tier": "D-",
+    "name": "Swampert",
+    "type": "Ground"
+  },
+  {
+    "tier": "D-",
+    "name": "Shadow Metagross",
+    "type": "Ground"
+  },
+  {
+    "tier": "D-",
+    "name": "Flygon",
+    "type": "Ground"
+  },
+  {
+    "tier": "D-",
+    "name": "Golem",
+    "type": "Ground"
+  },
+  {
+    "tier": "F",
+    "name": "Ursaluna",
+    "type": "Ground"
+  },
+  {
+    "tier": "F",
+    "name": "Golurk",
+    "type": "Ground"
+  },
+  {
+    "tier": "F",
+    "name": "Heatran",
+    "type": "Ground"
+  },
+  {
+    "tier": "F",
+    "name": "Rhydon",
+    "type": "Ground"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Nidoking",
+    "type": "Ground"
+  },
+  {
+    "tier": "F",
+    "name": "Krookodile",
+    "type": "Ground"
+  },
+  {
+    "tier": "F",
+    "name": "Haxorus",
+    "type": "Ground"
+  },
+  {
+    "tier": "F",
+    "name": "Entei",
+    "type": "Ground"
+  },
+  {
+    "tier": "F",
+    "name": "Seismitoad",
+    "type": "Ground"
+  },
+  {
+    "tier": "F",
+    "name": "Donphan",
+    "type": "Ground"
+  },
+  {
+    "tier": "F",
+    "name": "Zygarde (Complete Forme)",
+    "type": "Ground"
+  },
+  {
+    "tier": "F",
+    "name": "Magmortar",
+    "type": "Ground"
+  },
+  {
+    "tier": "F",
+    "name": "Palossand",
+    "type": "Ground"
+  },
+  {
+    "tier": "F",
+    "name": "Terrakion",
+    "type": "Ground"
+  },
+  {
+    "tier": "F",
+    "name": "Zygarde (50% Forme)",
+    "type": "Ground"
+  },
+  {
+    "tier": "F",
+    "name": "Sandslash",
+    "type": "Ground"
+  },
+  {
+    "tier": "F",
+    "name": "Ho-Oh",
+    "type": "Ground"
+  },
+  {
+    "tier": "F",
+    "name": "Metagross",
+    "type": "Ground"
+  },
+  {
+    "tier": "F",
+    "name": "Arcanine",
+    "type": "Ground"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Camerupt",
+    "type": "Ground"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Aerodactyl",
+    "type": "Ground"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Nidoqueen",
+    "type": "Ground"
+  },
+  {
+    "tier": "F",
+    "name": "Nidoking",
+    "type": "Ground"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Gliscor",
+    "type": "Ground"
+  },
+  {
+    "tier": "A+",
+    "name": "Shadow Mamoswine",
+    "type": "Ice"
+  },
+  {
+    "tier": "A+",
+    "name": "Shadow Weavile",
+    "type": "Ice"
+  },
+  {
+    "tier": "B+",
+    "name": "Shadow Mewtwo",
+    "type": "Ice"
+  },
+  {
+    "tier": "B+",
+    "name": "Baxcalibur",
+    "type": "Ice"
+  },
+  {
+    "tier": "B",
+    "name": "Galarian Darmanitan",
+    "type": "Ice"
+  },
+  {
+    "tier": "B",
+    "name": "Weavile",
+    "type": "Ice"
+  },
+  {
+    "tier": "B",
+    "name": "Glaceon",
+    "type": "Ice"
+  },
+  {
+    "tier": "B",
+    "name": "Mamoswine",
+    "type": "Ice"
+  },
+  {
+    "tier": "B",
+    "name": "Cetitan",
+    "type": "Ice"
+  },
+  {
+    "tier": "B-",
+    "name": "Shadow Kyogre",
+    "type": "Ice"
+  },
+  {
+    "tier": "B-",
+    "name": "Shadow Articuno",
+    "type": "Ice"
+  },
+  {
+    "tier": "C+",
+    "name": "Shadow Piloswine",
+    "type": "Ice"
+  },
+  {
+    "tier": "C+",
+    "name": "Genesect - Chill Drive",
+    "type": "Ice"
+  },
+  {
+    "tier": "C+",
+    "name": "Shadow Cloyster",
+    "type": "Ice"
+  },
+  {
+    "tier": "C",
+    "name": "Kyurem",
+    "type": "Ice"
+  },
+  {
+    "tier": "C",
+    "name": "Mewtwo",
+    "type": "Ice"
+  },
+  {
+    "tier": "C-",
+    "name": "Shadow Empoleon",
+    "type": "Ice"
+  },
+  {
+    "tier": "C-",
+    "name": "Mr. Rime",
+    "type": "Ice"
+  },
+  {
+    "tier": "C-",
+    "name": "Shadow Sneasel",
+    "type": "Ice"
+  },
+  {
+    "tier": "C-",
+    "name": "Avalugg",
+    "type": "Ice"
+  },
+  {
+    "tier": "C-",
+    "name": "Kyogre",
+    "type": "Ice"
+  },
+  {
+    "tier": "D+",
+    "name": "Shadow Lapras",
+    "type": "Ice"
+  },
+  {
+    "tier": "D+",
+    "name": "Articuno",
+    "type": "Ice"
+  },
+  {
+    "tier": "D+",
+    "name": "Shadow Walrein",
+    "type": "Ice"
+  },
+  {
+    "tier": "D+",
+    "name": "Shadow Porygon-Z",
+    "type": "Ice"
+  },
+  {
+    "tier": "D+",
+    "name": "Shadow Abomasnow",
+    "type": "Ice"
+  },
+  {
+    "tier": "D+",
+    "name": "Shadow Gardevoir",
+    "type": "Ice"
+  },
+  {
+    "tier": "D+",
+    "name": "Shadow Alolan Sandslash",
+    "type": "Ice"
+  },
+  {
+    "tier": "D",
+    "name": "Cryogonal",
+    "type": "Ice"
+  },
+  {
+    "tier": "D",
+    "name": "Cloyster",
+    "type": "Ice"
+  },
+  {
+    "tier": "D",
+    "name": "Hisuian Avalugg",
+    "type": "Ice"
+  },
+  {
+    "tier": "D",
+    "name": "Piloswine",
+    "type": "Ice"
+  },
+  {
+    "tier": "D",
+    "name": "Shadow Ursaluna",
+    "type": "Ice"
+  },
+  {
+    "tier": "D",
+    "name": "Aurorus",
+    "type": "Ice"
+  },
+  {
+    "tier": "D",
+    "name": "Shadow Glalie",
+    "type": "Ice"
+  },
+  {
+    "tier": "D",
+    "name": "Shadow Alolan Ninetales",
+    "type": "Ice"
+  },
+  {
+    "tier": "D-",
+    "name": "Jynx",
+    "type": "Ice"
+  },
+  {
+    "tier": "D-",
+    "name": "Shadow Regice",
+    "type": "Ice"
+  },
+  {
+    "tier": "D-",
+    "name": "Empoleon",
+    "type": "Ice"
+  },
+  {
+    "tier": "D-",
+    "name": "Mew",
+    "type": "Ice"
+  },
+  {
+    "tier": "D-",
+    "name": "Shadow Froslass",
+    "type": "Ice"
+  },
+  {
+    "tier": "D-",
+    "name": "Shadow Feraligatr",
+    "type": "Ice"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Electivire",
+    "type": "Ice"
+  },
+  {
+    "tier": "F",
+    "name": "Sneasel",
+    "type": "Ice"
+  },
+  {
+    "tier": "F",
+    "name": "Beartic",
+    "type": "Ice"
+  },
+  {
+    "tier": "F",
+    "name": "Lapras",
+    "type": "Ice"
+  },
+  {
+    "tier": "F",
+    "name": "Porygon-Z",
+    "type": "Ice"
+  },
+  {
+    "tier": "F",
+    "name": "Walrein",
+    "type": "Ice"
+  },
+  {
+    "tier": "F",
+    "name": "Alolan Sandslash",
+    "type": "Ice"
+  },
+  {
+    "tier": "F",
+    "name": "Gardevoir",
+    "type": "Ice"
+  },
+  {
+    "tier": "F",
+    "name": "Abomasnow",
+    "type": "Ice"
+  },
+  {
+    "tier": "F",
+    "name": "Vanilluxe",
+    "type": "Ice"
+  },
+  {
+    "tier": "F",
+    "name": "Ursaluna",
+    "type": "Ice"
+  },
+  {
+    "tier": "F",
+    "name": "Regice",
+    "type": "Ice"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Suicune",
+    "type": "Ice"
+  },
+  {
+    "tier": "A+",
+    "name": "Shadow Gengar",
+    "type": "Poison"
+  },
+  {
+    "tier": "B",
+    "name": "Gengar",
+    "type": "Poison"
+  },
+  {
+    "tier": "B-",
+    "name": "Nihilego",
+    "type": "Poison"
+  },
+  {
+    "tier": "C+",
+    "name": "Overqwil",
+    "type": "Poison"
+  },
+  {
+    "tier": "C+",
+    "name": "Darkrai",
+    "type": "Poison"
+  },
+  {
+    "tier": "C+",
+    "name": "Genesect - Douse Drive",
+    "type": "Poison"
+  },
+  {
+    "tier": "C",
+    "name": "Shadow Haunter",
+    "type": "Poison"
+  },
+  {
+    "tier": "C",
+    "name": "Naganadel",
+    "type": "Poison"
+  },
+  {
+    "tier": "C",
+    "name": "Shadow Drapion",
+    "type": "Poison"
+  },
+  {
+    "tier": "C-",
+    "name": "Shadow Tangrowth",
+    "type": "Poison"
+  },
+  {
+    "tier": "C-",
+    "name": "Shadow Alolan Muk",
+    "type": "Poison"
+  },
+  {
+    "tier": "C-",
+    "name": "Shadow Toxicroak",
+    "type": "Poison"
+  },
+  {
+    "tier": "C-",
+    "name": "Shadow Crobat",
+    "type": "Poison"
+  },
+  {
+    "tier": "D+",
+    "name": "Shadow Victreebel",
+    "type": "Poison"
+  },
+  {
+    "tier": "D+",
+    "name": "Shadow Vileplume",
+    "type": "Poison"
+  },
+  {
+    "tier": "D+",
+    "name": "Roserade",
+    "type": "Poison"
+  },
+  {
+    "tier": "D",
+    "name": "Venusaur",
+    "type": "Poison"
+  },
+  {
+    "tier": "D",
+    "name": "Shadow Venusaur",
+    "type": "Poison"
+  },
+  {
+    "tier": "D",
+    "name": "Shadow Skuntank",
+    "type": "Poison"
+  },
+  {
+    "tier": "D",
+    "name": "Shadow Muk",
+    "type": "Poison"
+  },
+  {
+    "tier": "D",
+    "name": "Zoroark",
+    "type": "Poison"
+  },
+  {
+    "tier": "D",
+    "name": "Haunter",
+    "type": "Poison"
+  },
+  {
+    "tier": "D-",
+    "name": "Drapion",
+    "type": "Poison"
+  },
+  {
+    "tier": "D-",
+    "name": "Tangrowth",
+    "type": "Poison"
+  },
+  {
+    "tier": "D-",
+    "name": "Revavroom",
+    "type": "Poison"
+  },
+  {
+    "tier": "D-",
+    "name": "Alolan Muk",
+    "type": "Poison"
+  },
+  {
+    "tier": "D-",
+    "name": "Guzzlord",
+    "type": "Poison"
+  },
+  {
+    "tier": "D-",
+    "name": "Thundurus (Therian Forme)",
+    "type": "Poison"
+  },
+  {
+    "tier": "F",
+    "name": "Hisuian Qwilfish",
+    "type": "Poison"
+  },
+  {
+    "tier": "F",
+    "name": "Crobat",
+    "type": "Poison"
+  },
+  {
+    "tier": "F",
+    "name": "Toxicroak",
+    "type": "Poison"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Nidoking",
+    "type": "Poison"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Weezing",
+    "type": "Poison"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Tangela",
+    "type": "Poison"
+  },
+  {
+    "tier": "F",
+    "name": "Victreebel",
+    "type": "Poison"
+  },
+  {
+    "tier": "F",
+    "name": "Vileplume",
+    "type": "Poison"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Amoonguss",
+    "type": "Poison"
+  },
+  {
+    "tier": "F",
+    "name": "Scolipede",
+    "type": "Poison"
+  },
+  {
+    "tier": "F",
+    "name": "Muk",
+    "type": "Poison"
+  },
+  {
+    "tier": "F",
+    "name": "Breloom",
+    "type": "Poison"
+  },
+  {
+    "tier": "F",
+    "name": "Galarian Slowbro",
+    "type": "Poison"
+  },
+  {
+    "tier": "F",
+    "name": "Skuntank",
+    "type": "Poison"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Nidoqueen",
+    "type": "Poison"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Beedrill",
+    "type": "Poison"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Ivysaur",
+    "type": "Poison"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Weepinbell",
+    "type": "Poison"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Swampert",
+    "type": "Poison"
+  },
+  {
+    "tier": "F",
+    "name": "Qwilfish",
+    "type": "Poison"
+  },
+  {
+    "tier": "F",
+    "name": "Salazzle",
+    "type": "Poison"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Tentacruel",
+    "type": "Poison"
+  },
+  {
+    "tier": "F",
+    "name": "Galarian Slowking",
+    "type": "Poison"
+  },
+  {
+    "tier": "F",
+    "name": "Nidoking",
+    "type": "Poison"
+  },
+  {
+    "tier": "F",
+    "name": "Weezing",
+    "type": "Poison"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Gloom",
+    "type": "Poison"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Arbok",
+    "type": "Poison"
+  },
+  {
+    "tier": "F",
+    "name": "Dragalge",
+    "type": "Poison"
+  },
+  {
+    "tier": "F",
+    "name": "Roselia",
+    "type": "Poison"
+  },
+  {
+    "tier": "A+",
+    "name": "Shadow Mewtwo",
+    "type": "Psychic"
+  },
+  {
+    "tier": "B",
+    "name": "Mewtwo",
+    "type": "Psychic"
+  },
+  {
+    "tier": "C",
+    "name": "Shadow Latios",
+    "type": "Psychic"
+  },
+  {
+    "tier": "C",
+    "name": "Hoopa (Unbound)",
+    "type": "Psychic"
+  },
+  {
+    "tier": "C-",
+    "name": "Shadow Metagross",
+    "type": "Psychic"
+  },
+  {
+    "tier": "C-",
+    "name": "Dusk/Dawn Necrozma",
+    "type": "Psychic"
+  },
+  {
+    "tier": "C-",
+    "name": "Shadow Alakazam",
+    "type": "Psychic"
+  },
+  {
+    "tier": "D+",
+    "name": "Lunala",
+    "type": "Psychic"
+  },
+  {
+    "tier": "D",
+    "name": "Shadow Gallade",
+    "type": "Psychic"
+  },
+  {
+    "tier": "D",
+    "name": "Necrozma",
+    "type": "Psychic"
+  },
+  {
+    "tier": "D",
+    "name": "Shadow Exeggutor",
+    "type": "Psychic"
+  },
+  {
+    "tier": "D",
+    "name": "Shadow Latias",
+    "type": "Psychic"
+  },
+  {
+    "tier": "D",
+    "name": "Shadow Gardevoir",
+    "type": "Psychic"
+  },
+  {
+    "tier": "D",
+    "name": "Galarian Articuno",
+    "type": "Psychic"
+  },
+  {
+    "tier": "D",
+    "name": "Latios",
+    "type": "Psychic"
+  },
+  {
+    "tier": "D",
+    "name": "Shadow Lugia",
+    "type": "Psychic"
+  },
+  {
+    "tier": "D-",
+    "name": "Meloetta (Aria Forme)",
+    "type": "Psychic"
+  },
+  {
+    "tier": "D-",
+    "name": "Metagross",
+    "type": "Psychic"
+  },
+  {
+    "tier": "D-",
+    "name": "Hoopa (Confined)",
+    "type": "Psychic"
+  },
+  {
+    "tier": "D-",
+    "name": "Alakazam",
+    "type": "Psychic"
+  },
+  {
+    "tier": "D-",
+    "name": "Tapu Lele",
+    "type": "Psychic"
+  },
+  {
+    "tier": "F",
+    "name": "Azelf",
+    "type": "Psychic"
+  },
+  {
+    "tier": "F",
+    "name": "Espeon",
+    "type": "Psychic"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Reuniclus",
+    "type": "Psychic"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Gengar",
+    "type": "Psychic"
+  },
+  {
+    "tier": "F",
+    "name": "Gallade",
+    "type": "Psychic"
+  },
+  {
+    "tier": "F",
+    "name": "Latias",
+    "type": "Psychic"
+  },
+  {
+    "tier": "F",
+    "name": "Exeggutor",
+    "type": "Psychic"
+  },
+  {
+    "tier": "F",
+    "name": "Gardevoir",
+    "type": "Psychic"
+  },
+  {
+    "tier": "F",
+    "name": "Solgaleo",
+    "type": "Psychic"
+  },
+  {
+    "tier": "F",
+    "name": "Lugia",
+    "type": "Psychic"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Darmanitan",
+    "type": "Psychic"
+  },
+  {
+    "tier": "F",
+    "name": "Celebi",
+    "type": "Psychic"
+  },
+  {
+    "tier": "F",
+    "name": "Jirachi",
+    "type": "Psychic"
+  },
+  {
+    "tier": "F",
+    "name": "Victini",
+    "type": "Psychic"
+  },
+  {
+    "tier": "F",
+    "name": "Armored Mewtwo",
+    "type": "Psychic"
+  },
+  {
+    "tier": "F",
+    "name": "Delphox",
+    "type": "Psychic"
+  },
+  {
+    "tier": "F",
+    "name": "Mesprit",
+    "type": "Psychic"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Honchkrow",
+    "type": "Psychic"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Magmortar",
+    "type": "Psychic"
+  },
+  {
+    "tier": "F",
+    "name": "Mew",
+    "type": "Psychic"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Slowbro",
+    "type": "Psychic"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Slowking",
+    "type": "Psychic"
+  },
+  {
+    "tier": "F",
+    "name": "Beheeyem",
+    "type": "Psychic"
+  },
+  {
+    "tier": "F",
+    "name": "Yveltal",
+    "type": "Psychic"
+  },
+  {
+    "tier": "F",
+    "name": "Mr. Rime",
+    "type": "Psychic"
+  },
+  {
+    "tier": "F",
+    "name": "Hisuian Braviary",
+    "type": "Psychic"
+  },
+  {
+    "tier": "F",
+    "name": "Wyrdeer",
+    "type": "Psychic"
+  },
+  {
+    "tier": "F",
+    "name": "Deoxys (Attack Forme)",
+    "type": "Psychic"
+  },
+  {
+    "tier": "F",
+    "name": "Reuniclus",
+    "type": "Psychic"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Gothitelle",
+    "type": "Psychic"
+  },
+  {
+    "tier": "A+",
+    "name": "Shadow Rampardos",
+    "type": "Rock"
+  },
+  {
+    "tier": "A+",
+    "name": "Shadow Rhyperior",
+    "type": "Rock"
+  },
+  {
+    "tier": "B+",
+    "name": "Shadow Tyranitar",
+    "type": "Rock"
+  },
+  {
+    "tier": "B",
+    "name": "Rampardos",
+    "type": "Rock"
+  },
+  {
+    "tier": "B",
+    "name": "Rhyperior",
+    "type": "Rock"
+  },
+  {
+    "tier": "B-",
+    "name": "Terrakion",
+    "type": "Rock"
+  },
+  {
+    "tier": "B-",
+    "name": "Shadow Aggron",
+    "type": "Rock"
+  },
+  {
+    "tier": "C+",
+    "name": "Gigalith",
+    "type": "Rock"
+  },
+  {
+    "tier": "C",
+    "name": "Tyranitar",
+    "type": "Rock"
+  },
+  {
+    "tier": "C",
+    "name": "Shadow Excadrill",
+    "type": "Rock"
+  },
+  {
+    "tier": "D+",
+    "name": "Aggron",
+    "type": "Rock"
+  },
+  {
+    "tier": "D+",
+    "name": "Nihilego",
+    "type": "Rock"
+  },
+  {
+    "tier": "D",
+    "name": "Shadow Crustle",
+    "type": "Rock"
+  },
+  {
+    "tier": "D",
+    "name": "Shadow Aerodactyl",
+    "type": "Rock"
+  },
+  {
+    "tier": "D-",
+    "name": "Excadrill",
+    "type": "Rock"
+  },
+  {
+    "tier": "D-",
+    "name": "Shadow Archeops",
+    "type": "Rock"
+  },
+  {
+    "tier": "D-",
+    "name": "Tyrantrum",
+    "type": "Rock"
+  },
+  {
+    "tier": "D-",
+    "name": "Shadow Hippowdon",
+    "type": "Rock"
+  },
+  {
+    "tier": "D-",
+    "name": "Shadow Omastar",
+    "type": "Rock"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Darmanitan",
+    "type": "Rock"
+  },
+  {
+    "tier": "F",
+    "name": "Stonjourner",
+    "type": "Rock"
+  },
+  {
+    "tier": "F",
+    "name": "Hisuian Arcanine",
+    "type": "Rock"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Alolan Golem",
+    "type": "Rock"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Golem",
+    "type": "Rock"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Tangrowth",
+    "type": "Rock"
+  },
+  {
+    "tier": "F",
+    "name": "Kleavor",
+    "type": "Rock"
+  },
+  {
+    "tier": "F",
+    "name": "Landorus (Incarnate Forme)",
+    "type": "Rock"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Zapdos",
+    "type": "Rock"
+  },
+  {
+    "tier": "F",
+    "name": "Crustle",
+    "type": "Rock"
+  },
+  {
+    "tier": "F",
+    "name": "Aurorus",
+    "type": "Rock"
+  },
+  {
+    "tier": "F",
+    "name": "Aerodactyl",
+    "type": "Rock"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Moltres",
+    "type": "Rock"
+  },
+  {
+    "tier": "F",
+    "name": "Hisuian Avalugg",
+    "type": "Rock"
+  },
+  {
+    "tier": "F",
+    "name": "Melmetal",
+    "type": "Rock"
+  },
+  {
+    "tier": "F",
+    "name": "Rayquaza",
+    "type": "Rock"
+  },
+  {
+    "tier": "F",
+    "name": "Hippowdon",
+    "type": "Rock"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Machamp",
+    "type": "Rock"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Regirock",
+    "type": "Rock"
+  },
+  {
+    "tier": "F",
+    "name": "Mew",
+    "type": "Rock"
+  },
+  {
+    "tier": "F",
+    "name": "Archeops",
+    "type": "Rock"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Kabutops",
+    "type": "Rock"
+  },
+  {
+    "tier": "F",
+    "name": "Omastar",
+    "type": "Rock"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Mamoswine",
+    "type": "Rock"
+  },
+  {
+    "tier": "F",
+    "name": "Stakataka",
+    "type": "Rock"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Armaldo",
+    "type": "Rock"
+  },
+  {
+    "tier": "F",
+    "name": "Reshiram",
+    "type": "Rock"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Sudowoodo",
+    "type": "Rock"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Carracosta",
+    "type": "Rock"
+  },
+  {
+    "tier": "F",
+    "name": "Braviary",
+    "type": "Rock"
+  },
+  {
+    "tier": "F",
+    "name": "Darmanitan",
+    "type": "Rock"
+  },
+  {
+    "tier": "F",
+    "name": "Alolan Golem",
+    "type": "Rock"
+  },
+  {
+    "tier": "F",
+    "name": "Golem",
+    "type": "Rock"
+  },
+  {
+    "tier": "F",
+    "name": "Lycanroc (Dusk/Midday Form)",
+    "type": "Rock"
+  },
+  {
+    "tier": "F",
+    "name": "Diancie",
+    "type": "Rock"
+  },
+  {
+    "tier": "F",
+    "name": "Lycanroc (Midnight Form)",
+    "type": "Rock"
+  },
+  {
+    "tier": "F",
+    "name": "Regirock",
+    "type": "Rock"
+  },
+  {
+    "tier": "S",
+    "name": "Dusk Mane Necrozma",
+    "type": "Steel"
+  },
+  {
+    "tier": "A+",
+    "name": "Shadow Metagross",
+    "type": "Steel"
+  },
+  {
+    "tier": "A+",
+    "name": "Shadow Excadrill",
+    "type": "Steel"
+  },
+  {
+    "tier": "A",
+    "name": "Dialga",
+    "type": "Steel"
+  },
+  {
+    "tier": "A",
+    "name": "Dialga (Origin Forme)",
+    "type": "Steel"
+  },
+  {
+    "tier": "B",
+    "name": "Shadow Magnezone",
+    "type": "Steel"
+  },
+  {
+    "tier": "B",
+    "name": "Metagross",
+    "type": "Steel"
+  },
+  {
+    "tier": "B",
+    "name": "Shadow Empoleon",
+    "type": "Steel"
+  },
+  {
+    "tier": "B-",
+    "name": "Excadrill",
+    "type": "Steel"
+  },
+  {
+    "tier": "B-",
+    "name": "Melmetal",
+    "type": "Steel"
+  },
+  {
+    "tier": "B-",
+    "name": "Jirachi",
+    "type": "Steel"
+  },
+  {
+    "tier": "C+",
+    "name": "Dawn Wings Necrozma",
+    "type": "Steel"
+  },
+  {
+    "tier": "C+",
+    "name": "Genesect",
+    "type": "Steel"
+  },
+  {
+    "tier": "C",
+    "name": "Shadow Aggron",
+    "type": "Steel"
+  },
+  {
+    "tier": "C",
+    "name": "Magnezone",
+    "type": "Steel"
+  },
+  {
+    "tier": "C-",
+    "name": "Zacian",
+    "type": "Steel"
+  },
+  {
+    "tier": "C-",
+    "name": "Zamazenta",
+    "type": "Steel"
+  },
+  {
+    "tier": "C-",
+    "name": "Bisharp",
+    "type": "Steel"
+  },
+  {
+    "tier": "C-",
+    "name": "Empoleon",
+    "type": "Steel"
+  },
+  {
+    "tier": "C-",
+    "name": "Necrozma",
+    "type": "Steel"
+  },
+  {
+    "tier": "D+",
+    "name": "Cobalion",
+    "type": "Steel"
+  },
+  {
+    "tier": "D+",
+    "name": "Durant",
+    "type": "Steel"
+  },
+  {
+    "tier": "D",
+    "name": "Shadow Ferrothorn",
+    "type": "Steel"
+  },
+  {
+    "tier": "D",
+    "name": "Shadow Magneton",
+    "type": "Steel"
+  },
+  {
+    "tier": "D",
+    "name": "Shadow Lairon",
+    "type": "Steel"
+  },
+  {
+    "tier": "D-",
+    "name": "Shadow Registeel",
+    "type": "Steel"
+  },
+  {
+    "tier": "D-",
+    "name": "Aggron",
+    "type": "Steel"
+  },
+  {
+    "tier": "D-",
+    "name": "Shadow Scizor",
+    "type": "Steel"
+  },
+  {
+    "tier": "D-",
+    "name": "Shadow Alolan Dugtrio",
+    "type": "Steel"
+  },
+  {
+    "tier": "D-",
+    "name": "Solgaleo",
+    "type": "Steel"
+  },
+  {
+    "tier": "D-",
+    "name": "Heatran",
+    "type": "Steel"
+  },
+  {
+    "tier": "D-",
+    "name": "Shadow Alolan Sandslash",
+    "type": "Steel"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Entei",
+    "type": "Steel"
+  },
+  {
+    "tier": "F",
+    "name": "Klinklang",
+    "type": "Steel"
+  },
+  {
+    "tier": "F",
+    "name": "Perrserker",
+    "type": "Steel"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Machamp",
+    "type": "Steel"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Hariyama",
+    "type": "Steel"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Steelix",
+    "type": "Steel"
+  },
+  {
+    "tier": "F",
+    "name": "Celesteela",
+    "type": "Steel"
+  },
+  {
+    "tier": "F",
+    "name": "Ferrothorn",
+    "type": "Steel"
+  },
+  {
+    "tier": "F",
+    "name": "Bronzong",
+    "type": "Steel"
+  },
+  {
+    "tier": "F",
+    "name": "Lairon",
+    "type": "Steel"
+  },
+  {
+    "tier": "F",
+    "name": "Registeel",
+    "type": "Steel"
+  },
+  {
+    "tier": "F",
+    "name": "Magneton",
+    "type": "Steel"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Snorlax",
+    "type": "Steel"
+  },
+  {
+    "tier": "F",
+    "name": "Alolan Dugtrio",
+    "type": "Steel"
+  },
+  {
+    "tier": "F",
+    "name": "Scizor",
+    "type": "Steel"
+  },
+  {
+    "tier": "F",
+    "name": "Cetitan",
+    "type": "Steel"
+  },
+  {
+    "tier": "F",
+    "name": "Alolan Sandslash",
+    "type": "Steel"
+  },
+  {
+    "tier": "F",
+    "name": "Zekrom",
+    "type": "Steel"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Donphan",
+    "type": "Steel"
+  },
+  {
+    "tier": "F",
+    "name": "Entei",
+    "type": "Steel"
+  },
+  {
+    "tier": "F",
+    "name": "Mew",
+    "type": "Steel"
+  },
+  {
+    "tier": "F",
+    "name": "Machamp",
+    "type": "Steel"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Aerodactyl",
+    "type": "Steel"
+  },
+  {
+    "tier": "F",
+    "name": "Clefable",
+    "type": "Steel"
+  },
+  {
+    "tier": "F",
+    "name": "Hariyama",
+    "type": "Steel"
+  },
+  {
+    "tier": "F",
+    "name": "Lucario",
+    "type": "Steel"
+  },
+  {
+    "tier": "F",
+    "name": "Aerodactyl",
+    "type": "Steel"
+  },
+  {
+    "tier": "S",
+    "name": "Shadow Kyogre",
+    "type": "Water"
+  },
+  {
+    "tier": "A+",
+    "name": "Kyogre",
+    "type": "Water"
+  },
+  {
+    "tier": "B+",
+    "name": "Shadow Empoleon",
+    "type": "Water"
+  },
+  {
+    "tier": "B",
+    "name": "Shadow Feraligatr",
+    "type": "Water"
+  },
+  {
+    "tier": "B",
+    "name": "Shadow Gyarados",
+    "type": "Water"
+  },
+  {
+    "tier": "B-",
+    "name": "Primarina",
+    "type": "Water"
+  },
+  {
+    "tier": "B-",
+    "name": "Shadow Crawdaunt",
+    "type": "Water"
+  },
+  {
+    "tier": "B-",
+    "name": "Shadow Swampert",
+    "type": "Water"
+  },
+  {
+    "tier": "C",
+    "name": "Kingler",
+    "type": "Water"
+  },
+  {
+    "tier": "C",
+    "name": "Greninja",
+    "type": "Water"
+  },
+  {
+    "tier": "C",
+    "name": "Samurott",
+    "type": "Water"
+  },
+  {
+    "tier": "C",
+    "name": "Empoleon",
+    "type": "Water"
+  },
+  {
+    "tier": "C",
+    "name": "Gyarados",
+    "type": "Water"
+  },
+  {
+    "tier": "C-",
+    "name": "Feraligatr",
+    "type": "Water"
+  },
+  {
+    "tier": "D+",
+    "name": "Crawdaunt",
+    "type": "Water"
+  },
+  {
+    "tier": "D+",
+    "name": "Swampert",
+    "type": "Water"
+  },
+  {
+    "tier": "D+",
+    "name": "Shadow Sharpedo",
+    "type": "Water"
+  },
+  {
+    "tier": "D+",
+    "name": "Shadow Politoed",
+    "type": "Water"
+  },
+  {
+    "tier": "D+",
+    "name": "Palkia (Origin Forme)",
+    "type": "Water"
+  },
+  {
+    "tier": "D",
+    "name": "Shadow Salamence",
+    "type": "Water"
+  },
+  {
+    "tier": "D",
+    "name": "Genesect - Douse Drive",
+    "type": "Water"
+  },
+  {
+    "tier": "D",
+    "name": "Inteleon",
+    "type": "Water"
+  },
+  {
+    "tier": "D",
+    "name": "Shadow Kingdra",
+    "type": "Water"
+  },
+  {
+    "tier": "D",
+    "name": "Milotic",
+    "type": "Water"
+  },
+  {
+    "tier": "D",
+    "name": "Golisopod",
+    "type": "Water"
+  },
+  {
+    "tier": "D",
+    "name": "Palkia",
+    "type": "Water"
+  },
+  {
+    "tier": "D",
+    "name": "Crabominable",
+    "type": "Water"
+  },
+  {
+    "tier": "D",
+    "name": "Shadow Blastoise",
+    "type": "Water"
+  },
+  {
+    "tier": "D",
+    "name": "Shadow Kabutops",
+    "type": "Water"
+  },
+  {
+    "tier": "D-",
+    "name": "Clawitzer",
+    "type": "Water"
+  },
+  {
+    "tier": "D-",
+    "name": "Keldeo",
+    "type": "Water"
+  },
+  {
+    "tier": "D-",
+    "name": "Hisuian Samurott",
+    "type": "Water"
+  },
+  {
+    "tier": "D-",
+    "name": "Haxorus",
+    "type": "Water"
+  },
+  {
+    "tier": "D-",
+    "name": "Shadow Wailord",
+    "type": "Water"
+  },
+  {
+    "tier": "D-",
+    "name": "Shadow Poliwrath",
+    "type": "Water"
+  },
+  {
+    "tier": "D-",
+    "name": "Shadow Carracosta",
+    "type": "Water"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Rhyperior",
+    "type": "Water"
+  },
+  {
+    "tier": "F",
+    "name": "Quaquaval",
+    "type": "Water"
+  },
+  {
+    "tier": "F",
+    "name": "Mew",
+    "type": "Water"
+  },
+  {
+    "tier": "F",
+    "name": "Floatzel",
+    "type": "Water"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Walrein",
+    "type": "Water"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Lapras",
+    "type": "Water"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Omastar",
+    "type": "Water"
+  },
+  {
+    "tier": "F",
+    "name": "Sharpedo",
+    "type": "Water"
+  },
+  {
+    "tier": "F",
+    "name": "Politoad",
+    "type": "Water"
+  },
+  {
+    "tier": "F",
+    "name": "Salamence",
+    "type": "Water"
+  },
+  {
+    "tier": "F",
+    "name": "Kingdra",
+    "type": "Water"
+  },
+  {
+    "tier": "F",
+    "name": "Vaporeon",
+    "type": "Water"
+  },
+  {
+    "tier": "F",
+    "name": "Kabutops",
+    "type": "Water"
+  },
+  {
+    "tier": "F",
+    "name": "Blastoise",
+    "type": "Water"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Golduck",
+    "type": "Water"
+  },
+  {
+    "tier": "F",
+    "name": "Shadow Rhydon",
+    "type": "Water"
+  },
+  {
+    "tier": "F",
+    "name": "Tapu Fini",
+    "type": "Water"
+  },
+  {
+    "tier": "F",
+    "name": "Rhyperior",
+    "type": "Water"
+  },
+  {
+    "tier": "F",
+    "name": "Omastar",
+    "type": "Water"
+  }
+]
