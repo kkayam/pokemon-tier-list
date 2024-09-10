@@ -185,7 +185,7 @@ export default function Home({ data }) {
         <div className="flex flex-wrap gap-4">
           {/* Data Source Link */}
           <a
-            href="https://docs.google.com/spreadsheets/d/1m6Zmt3AUA_ZGoX88MgoQ0PngtSS55caFevg_nKH4rV0/edit?gid=2000687031#gid=2000687031"
+            href="https://docs.google.com/spreadsheets/d/18HAt9eCxOxf6E5xkhx3twTlmBSTPyNszAZBOAQiik7Q/"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-white text-black p-2 rounded-md shadow-sm flex items-center justify-between transition-transform duration-300 hover:scale-105 hover:shadow-lg hover:bg-gray-300"
