@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { fetchGoogleSheetsData } from '../lib/fetchGoogleSheetsData';
+import pokemonData from '../public/pokemondata.json';
 
 // Define type colors mapping
 const typeColors = {
@@ -23,16 +23,26 @@ const typeColors = {
   Steel: 'bg-gray-500',
 };
 
-// Define tier colors mapping
+// Define tier colors mapping with + and - cases for every tier
 const tierColors = {
-  'S+': 'bg-red-600 text-white',
   S: 'bg-red-500 text-white',
   'S-': 'bg-red-400 text-white',
+  'A+': 'bg-orange-600 text-white',
   A: 'bg-orange-500 text-white',
+  'A-': 'bg-orange-400 text-white',
+  'B+': 'bg-yellow-600 text-black',
   B: 'bg-yellow-500 text-black',
+  'B-': 'bg-yellow-400 text-black',
+  'C+': 'bg-green-600 text-white',
   C: 'bg-green-500 text-white',
+  'C-': 'bg-green-400 text-white',
+  'D+': 'bg-blue-600 text-white',
   D: 'bg-blue-500 text-white',
+  'D-': 'bg-blue-400 text-white',
+  'E+': 'bg-indigo-600 text-white',
   E: 'bg-indigo-500 text-white',
+  'E-': 'bg-indigo-400 text-white',
+  F: 'bg-gray-500 text-white',
 };
 
 // Define exceptions for specific Pokémon names
@@ -49,13 +59,10 @@ export default function Home({ data }) {
   const [searchTerm, setSearchTerm] = useState(''); // State to handle search term
   const [selectedTiers, setSelectedTiers] = useState([]); // State to handle multiple selected tiers
 
-  if (!data || data.length === 0) {
-    return <div>No data available</div>;
-  }
-
   // Extract headers and rows from the formatted data
-  const types = data.headers;
-  const pokemons = data.pokemons;
+  const types = Object.keys(typeColors);
+  const pokemons = pokemonData;
+
 
   // Filtered Pokémon based on search term and selected tiers
   const filteredPokemons = pokemons.filter((pokemon) => {
@@ -198,14 +205,4 @@ export default function Home({ data }) {
       </div>
     </div>
   );
-}
-
-export async function getServerSideProps() {
-  const data = await fetchGoogleSheetsData();
-
-  return {
-    props: {
-      data,
-    },
-  };
 }
