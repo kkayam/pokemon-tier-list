@@ -71,6 +71,7 @@ export default function Home({ pokemonData }) {
   const [searchTerm, setSearchTerm] = useState(''); // State to handle search term
   const [selectedTiers, setSelectedTiers] = useState([]); // State to handle multiple selected tiers
   const [selectedVersions, setSelectedVersions] = useState([]); // State to handle selected versions
+  const [showMore, setShowMore] = useState({});
 
   // Extract headers and rows from the formatted data
   const types = Object.keys(typeColors);
@@ -110,6 +111,13 @@ export default function Home({ pokemonData }) {
         ? prevSelectedVersions.filter((selectedVersion) => selectedVersion !== version) // Remove version if already selected
         : [...prevSelectedVersions, version] // Add version if not selected
     );
+  };
+
+  const handleSeeMore = (type) => {
+    setShowMore((prevShowMore) => ({
+      ...prevShowMore,
+      [type]: !prevShowMore[type],
+    }));
   };
 
   // Function to clear all selected tiers
@@ -187,10 +195,8 @@ export default function Home({ pokemonData }) {
           Clear Versions
         </button>
       </div>
-
-      {/* Grid layout for types */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        {types.map((type, index) => {
+        {types.map((type, typeIndex) => {
           // Filter Pokémon by type and search term
           const pokemonsByType = filteredPokemons.filter((pokemon) => pokemon.type === type);
 
@@ -199,11 +205,14 @@ export default function Home({ pokemonData }) {
             return null;
           }
 
+          // Determine the number of Pokémon to display
+          const pokemonsToDisplay = showMore[type] ? pokemonsByType : pokemonsByType.slice(0, 20);
+
           return (
-            <div key={index} className={`p-4 rounded-lg shadow-md ${typeColors[type]}`}>
+            <div key={typeIndex} className={`p-4 rounded-lg shadow-md ${typeColors[type]} relative pb-16`}>
               <h2 className="text-2xl font-bold mb-4 text-white">{type}</h2>
               <div className="flex flex-wrap gap-4">
-                {pokemonsByType.map((pokemon, index) => {
+                {pokemonsToDisplay.map((pokemon, index) => {
                   // Check if the Pokémon name is an exception
                   const formattedName = nameExceptions[pokemon.name]
                     ? nameExceptions[pokemon.name]
@@ -229,6 +238,15 @@ export default function Home({ pokemonData }) {
                   );
                 })}
               </div>
+              {pokemonsByType.length > 20 && (
+
+                <button
+                  onClick={() => handleSeeMore(type)}
+                  className="absolute bottom-0 left-0 w-full py-2 font-bold bg-white/30 text-white text-center rounded-b-lg"
+                >
+                  {showMore[type] ? 'Show Less' : 'See More'}
+                </button>
+              )}
             </div>
           );
         })}
