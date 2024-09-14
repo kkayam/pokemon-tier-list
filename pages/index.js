@@ -292,13 +292,27 @@ export async function getStaticProps() {
 
   // Define tier ranking, S being the highest
   const tierRanking = {
-    'S': 1,
-    'A': 2,
-    'B': 3,
-    'C': 4,
-    'D': 5,
-    'E': 6,
-    'F': 7,
+    'S+': 1,
+    'S': 2,
+    'S-': 3,
+    'A+': 4,
+    'A': 5,
+    'A-': 6,
+    'B+': 7,
+    'B': 8,
+    'B-': 9,
+    'C+': 10,
+    'C': 11,
+    'C-': 12,
+    'D+': 13,
+    'D': 14,
+    'D-': 15,
+    'E+': 16,
+    'E': 17,
+    'E-': 18,
+    'F+': 19,
+    'F': 20,
+    'F-': 21,
   };
 
   // Loop through all the files and filter only JSON files
