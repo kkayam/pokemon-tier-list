@@ -1,0 +1,737 @@
+[
+    {
+        "tier": "S",
+        "name": "Mega Rayquaza",
+        "type": "Bug"
+    },
+    {
+        "tier": "A",
+        "name": "Mega Heracross",
+        "type": "Bug"
+    },
+    {
+        "tier": "B+",
+        "name": "Mega Pinsir",
+        "type": "Bug"
+    },
+    {
+        "tier": "B",
+        "name": "Mega Beedrill",
+        "type": "Bug"
+    },
+    {
+        "tier": "C",
+        "name": "Mega Scizor",
+        "type": "Bug"
+    },
+    {
+        "tier": "D+",
+        "name": "Mega Absol",
+        "type": "Bug"
+    },
+    {
+        "tier": "A",
+        "name": "Mega Tyranitar",
+        "type": "Dark"
+    },
+    {
+        "tier": "B+",
+        "name": "Mega Rayquaza",
+        "type": "Dark"
+    },
+    {
+        "tier": "B-",
+        "name": "Mega Houndoom",
+        "type": "Dark"
+    },
+    {
+        "tier": "C+",
+        "name": "Mega Gengar",
+        "type": "Dark"
+    },
+    {
+        "tier": "C+",
+        "name": "Mega Gyarados",
+        "type": "Dark"
+    },
+    {
+        "tier": "C",
+        "name": "Mega Absol",
+        "type": "Dark"
+    },
+    {
+        "tier": "D+",
+        "name": "Mega Ampharos",
+        "type": "Dark"
+    },
+    {
+        "tier": "F",
+        "name": "Mega Kangaskhan",
+        "type": "Dark"
+    },
+    {
+        "tier": "F",
+        "name": "Mega Scizor",
+        "type": "Dark"
+    },
+    {
+        "tier": "F",
+        "name": "Mega Steelix",
+        "type": "Dark"
+    },
+    {
+        "tier": "F",
+        "name": "Mega Sableye",
+        "type": "Dark"
+    },
+    {
+        "tier": "A+",
+        "name": "Mega Rayquaza",
+        "type": "Dragon"
+    },
+    {
+        "tier": "A-",
+        "name": "Mega Garchomp",
+        "type": "Dragon"
+    },
+    {
+        "tier": "B-",
+        "name": "Mega Salamence",
+        "type": "Dragon"
+    },
+    {
+        "tier": "C+",
+        "name": "Mega Latios",
+        "type": "Dragon"
+    },
+    {
+        "tier": "C-",
+        "name": "Mega Latias",
+        "type": "Dragon"
+    },
+    {
+        "tier": "D",
+        "name": "Mega Gyarados",
+        "type": "Dragon"
+    },
+    {
+        "tier": "D",
+        "name": "Mega Sceptile",
+        "type": "Dragon"
+    },
+    {
+        "tier": "D",
+        "name": "Mega Charizard X",
+        "type": "Dragon"
+    },
+    {
+        "tier": "D-",
+        "name": "Mega Charizard Y",
+        "type": "Dragon"
+    },
+    {
+        "tier": "D-",
+        "name": "Mega Ampharos",
+        "type": "Dragon"
+    },
+    {
+        "tier": "F",
+        "name": "Mega Abomasnow",
+        "type": "Dragon"
+    },
+    {
+        "tier": "F",
+        "name": "Mega Kangaskhan",
+        "type": "Dragon"
+    },
+    {
+        "tier": "F",
+        "name": "Mega Altaria",
+        "type": "Dragon"
+    },
+    {
+        "tier": "F",
+        "name": "Mega Steelix",
+        "type": "Dragon"
+    },
+    {
+        "tier": "B",
+        "name": "Mega Rayquaza",
+        "type": "Electric"
+    },
+    {
+        "tier": "B",
+        "name": "Mega Manectric",
+        "type": "Electric"
+    },
+    {
+        "tier": "C",
+        "name": "Mega Ampharos",
+        "type": "Electric"
+    },
+    {
+        "tier": "C-",
+        "name": "Primal Kyogre",
+        "type": "Electric"
+    },
+    {
+        "tier": "D-",
+        "name": "Mega Banette",
+        "type": "Electric"
+    },
+    {
+        "tier": "F",
+        "name": "Mega Latias",
+        "type": "Electric"
+    },
+    {
+        "tier": "F",
+        "name": "Mega Absol",
+        "type": "Electric"
+    },
+    {
+        "tier": "F",
+        "name": "Mega Aggron",
+        "type": "Electric"
+    },
+    {
+        "tier": "S",
+        "name": "Mega Rayquaza",
+        "type": "Fairy"
+    },
+    {
+        "tier": "S",
+        "name": "Mega Gardevoir",
+        "type": "Fairy"
+    },
+    {
+        "tier": "B",
+        "name": "Mega Alakazam",
+        "type": "Fairy"
+    },
+    {
+        "tier": "B",
+        "name": "Mega Banette",
+        "type": "Fairy"
+    },
+    {
+        "tier": "C-",
+        "name": "Mega Diancie",
+        "type": "Fairy"
+    },
+    {
+        "tier": "D",
+        "name": "Mega Altaria",
+        "type": "Fairy"
+    },
+    {
+        "tier": "A-",
+        "name": "Mega Lucario",
+        "type": "Fighting"
+    },
+    {
+        "tier": "B",
+        "name": "Mega Rayquaza",
+        "type": "Fighting"
+    },
+    {
+        "tier": "C+",
+        "name": "Mega Gengar",
+        "type": "Fighting"
+    },
+    {
+        "tier": "C",
+        "name": "Mega Heracross",
+        "type": "Fighting"
+    },
+    {
+        "tier": "C",
+        "name": "Mega Blaziken",
+        "type": "Fighting"
+    },
+    {
+        "tier": "C",
+        "name": "Mega Lopunny",
+        "type": "Fighting"
+    },
+    {
+        "tier": "C-",
+        "name": "Mega Alakazam",
+        "type": "Fighting"
+    },
+    {
+        "tier": "F",
+        "name": "Mega Pinsir",
+        "type": "Fighting"
+    },
+    {
+        "tier": "F",
+        "name": "Mega Ampharos",
+        "type": "Fighting"
+    },
+    {
+        "tier": "F",
+        "name": "Mega Kangaskhan",
+        "type": "Fighting"
+    },
+    {
+        "tier": "F",
+        "name": "Mega Medicham",
+        "type": "Fighting"
+    },
+    {
+        "tier": "A+",
+        "name": "Mega Blaziken",
+        "type": "Fire"
+    },
+    {
+        "tier": "A+",
+        "name": "Mega Charizard Y",
+        "type": "Fire"
+    },
+    {
+        "tier": "A-",
+        "name": "Primal Groudon",
+        "type": "Fire"
+    },
+    {
+        "tier": "A-",
+        "name": "Mega Rayquaza",
+        "type": "Fire"
+    },
+    {
+        "tier": "B",
+        "name": "Mega Charizard X",
+        "type": "Fire"
+    },
+    {
+        "tier": "C",
+        "name": "Mega Garchomp",
+        "type": "Fire"
+    },
+    {
+        "tier": "C",
+        "name": "Mega Houndoom",
+        "type": "Fire"
+    },
+    {
+        "tier": "C",
+        "name": "Mega Alakazam",
+        "type": "Fire"
+    },
+    {
+        "tier": "D+",
+        "name": "Mega Salamence",
+        "type": "Fire"
+    },
+    {
+        "tier": "D+",
+        "name": "Mega Lucario",
+        "type": "Fire"
+    },
+    {
+        "tier": "D",
+        "name": "Mega Manectric",
+        "type": "Fire"
+    },
+    {
+        "tier": "D",
+        "name": "Mega Tyranitar",
+        "type": "Fire"
+    },
+    {
+        "tier": "F",
+        "name": "Mega Lopunny",
+        "type": "Fire"
+    },
+    {
+        "tier": "S",
+        "name": "Mega Rayquaza",
+        "type": "Flying"
+    },
+    {
+        "tier": "B",
+        "name": "Mega Pidgeot",
+        "type": "Flying"
+    },
+    {
+        "tier": "C-",
+        "name": "Mega Blaziken",
+        "type": "Flying"
+    },
+    {
+        "tier": "F",
+        "name": "Mega Sceptile",
+        "type": "Flying"
+    },
+    {
+        "tier": "F",
+        "name": "Mega Altaria",
+        "type": "Flying"
+    },
+    {
+        "tier": "F",
+        "name": "Mega Beedrill",
+        "type": "Flying"
+    },
+    {
+        "tier": "A+",
+        "name": "Mega Gengar",
+        "type": "Ghost"
+    },
+    {
+        "tier": "B+",
+        "name": "Mega Banette",
+        "type": "Ghost"
+    },
+    {
+        "tier": "C+",
+        "name": "Mega Rayquaza",
+        "type": "Ghost"
+    },
+    {
+        "tier": "C",
+        "name": "Mega Alakazam",
+        "type": "Ghost"
+    },
+    {
+        "tier": "D",
+        "name": "Mega Gardevoir",
+        "type": "Ghost"
+    },
+    {
+        "tier": "D-",
+        "name": "Mega Lucario",
+        "type": "Ghost"
+    },
+    {
+        "tier": "F",
+        "name": "Mega Glalie",
+        "type": "Ghost"
+    },
+    {
+        "tier": "S",
+        "name": "Mega Sceptile",
+        "type": "Grass"
+    },
+    {
+        "tier": "A",
+        "name": "Mega Rayquaza",
+        "type": "Grass"
+    },
+    {
+        "tier": "A-",
+        "name": "Mega Venusaur",
+        "type": "Grass"
+    },
+    {
+        "tier": "A-",
+        "name": "Primal Groudon",
+        "type": "Grass"
+    },
+    {
+        "tier": "C",
+        "name": "Mega Latios",
+        "type": "Grass"
+    },
+    {
+        "tier": "C",
+        "name": "Mega Abomasnow",
+        "type": "Grass"
+    },
+    {
+        "tier": "D",
+        "name": "Mega Ampharos",
+        "type": "Grass"
+    },
+    {
+        "tier": "F",
+        "name": "Mega Scizor",
+        "type": "Grass"
+    },
+    {
+        "tier": "S",
+        "name": "Primal Groudon",
+        "type": "Ground"
+    },
+    {
+        "tier": "A",
+        "name": "Mega Garchomp",
+        "type": "Ground"
+    },
+    {
+        "tier": "B",
+        "name": "Mega Rayquaza",
+        "type": "Ground"
+    },
+    {
+        "tier": "C+",
+        "name": "Mega Swampert",
+        "type": "Ground"
+    },
+    {
+        "tier": "F",
+        "name": "Mega Heracross",
+        "type": "Ground"
+    },
+    {
+        "tier": "F",
+        "name": "Mega Sceptile",
+        "type": "Ground"
+    },
+    {
+        "tier": "F",
+        "name": "Mega Steelix",
+        "type": "Ground"
+    },
+    {
+        "tier": "F",
+        "name": "Mega Aerodactyl",
+        "type": "Ground"
+    },
+    {
+        "tier": "F",
+        "name": "Mega Kangaskhan",
+        "type": "Ground"
+    },
+    {
+        "tier": "F",
+        "name": "Mega Beedrill",
+        "type": "Ground"
+    },
+    {
+        "tier": "A",
+        "name": "Mega Rayquaza",
+        "type": "Ice"
+    },
+    {
+        "tier": "B",
+        "name": "Primal Kyogre",
+        "type": "Ice"
+    },
+    {
+        "tier": "C+",
+        "name": "Mega Glalie",
+        "type": "Ice"
+    },
+    {
+        "tier": "C+",
+        "name": "Mega Abomasnow",
+        "type": "Ice"
+    },
+    {
+        "tier": "C",
+        "name": "Mega Gardevoir",
+        "type": "Ice"
+    },
+    {
+        "tier": "D",
+        "name": "Mega Lopunny",
+        "type": "Ice"
+    },
+    {
+        "tier": "F",
+        "name": "Mega Slowbro",
+        "type": "Ice"
+    },
+    {
+        "tier": "F",
+        "name": "Mega Blastoise",
+        "type": "Ice"
+    },
+    {
+        "tier": "F",
+        "name": "Mega Medicham",
+        "type": "Ice"
+    },
+    {
+        "tier": "B+",
+        "name": "Mega Tyranitar",
+        "type": "Rock"
+    },
+    {
+        "tier": "B-",
+        "name": "Mega Rayquaza",
+        "type": "Rock"
+    },
+    {
+        "tier": "C",
+        "name": "Mega Diancie",
+        "type": "Rock"
+    },
+    {
+        "tier": "D+",
+        "name": "Mega Aerodactyl",
+        "type": "Rock"
+    },
+    {
+        "tier": "D+",
+        "name": "Mega Aggron",
+        "type": "Rock"
+    },
+    {
+        "tier": "D+",
+        "name": "Mega Rayquaza",
+        "type": "Rock"
+    },
+    {
+        "tier": "F",
+        "name": "Mega Blaziken",
+        "type": "Rock"
+    },
+    {
+        "tier": "F",
+        "name": "Mega Ampharos",
+        "type": "Rock"
+    },
+    {
+        "tier": "S",
+        "name": "Mega Gengar",
+        "type": "Poison"
+    },
+    {
+        "tier": "S",
+        "name": "Mega Rayquaza",
+        "type": "Poison"
+    },
+    {
+        "tier": "C",
+        "name": "Mega Venusaur",
+        "type": "Poison"
+    },
+    {
+        "tier": "C",
+        "name": "Mega Beedrill",
+        "type": "Poison"
+    },
+    {
+        "tier": "D",
+        "name": "Mega Swampert",
+        "type": "Poison"
+    },
+    {
+        "tier": "C+",
+        "name": "Mega Alakazam",
+        "type": "Psychic"
+    },
+    {
+        "tier": "C",
+        "name": "Mega Latios",
+        "type": "Psychic"
+    },
+    {
+        "tier": "C-",
+        "name": "Mega Gardevoir",
+        "type": "Psychic"
+    },
+    {
+        "tier": "C-",
+        "name": "Mega Rayquaza",
+        "type": "Psychic"
+    },
+    {
+        "tier": "D+",
+        "name": "Mega Latias",
+        "type": "Psychic"
+    },
+    {
+        "tier": "D",
+        "name": "Mega Gengar",
+        "type": "Psychic"
+    },
+    {
+        "tier": "F",
+        "name": "Mega Slowbro",
+        "type": "Psychic"
+    },
+    {
+        "tier": "F",
+        "name": "Mega Medicham",
+        "type": "Psychic"
+    },
+    {
+        "tier": "F",
+        "name": "Mega Manectric",
+        "type": "Psychic"
+    },
+    {
+        "tier": "F",
+        "name": "Mega Steelix",
+        "type": "Psychic"
+    },
+    {
+        "tier": "B+",
+        "name": "Mega Rayquaza",
+        "type": "Steel"
+    },
+    {
+        "tier": "C",
+        "name": "Mega Aggron",
+        "type": "Steel"
+    },
+    {
+        "tier": "D",
+        "name": "Mega Steelix",
+        "type": "Steel"
+    },
+    {
+        "tier": "D-",
+        "name": "Mega Scizor",
+        "type": "Steel"
+    },
+    {
+        "tier": "D-",
+        "name": "Mega Lucario",
+        "type": "Steel"
+    },
+    {
+        "tier": "F",
+        "name": "Mega Aerodactyl",
+        "type": "Steel"
+    },
+    {
+        "tier": "F",
+        "name": "Mega Blastoise",
+        "type": "Steel"
+    },
+    {
+        "tier": "F",
+        "name": "Mega Glalie",
+        "type": "Steel"
+    },
+    {
+        "tier": "S",
+        "name": "Primal Kyogre",
+        "type": "Water"
+    },
+    {
+        "tier": "B",
+        "name": "Mega Swampert",
+        "type": "Water"
+    },
+    {
+        "tier": "B",
+        "name": "Mega Gyarados",
+        "type": "Water"
+    },
+    {
+        "tier": "B-",
+        "name": "Mega Rayquaza",
+        "type": "Water"
+    },
+    {
+        "tier": "C+",
+        "name": "Mega Blastoise",
+        "type": "Water"
+    },
+    {
+        "tier": "D",
+        "name": "Mega Salamence",
+        "type": "Water"
+    },
+    {
+        "tier": "D-",
+        "name": "Mega Slowbro",
+        "type": "Water"
+    }
+]

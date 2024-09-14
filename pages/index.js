@@ -285,7 +285,7 @@ export async function getStaticProps() {
         const pokemonNameLower = pokemon.name.toLowerCase();
         if (/\bshadow\b/.test(pokemonNameLower)) {
           pokemon.version = "Shadow";
-        } else if (/\bmega\b/.test(pokemonNameLower)) {
+        } else if (/\b(mega|primal)\b/.test(pokemonNameLower)) {
           pokemon.version = "Mega";
         } else {
           pokemon.version = "Normal";
