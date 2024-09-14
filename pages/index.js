@@ -290,6 +290,17 @@ export async function getStaticProps() {
   // Initialize an empty array to store the combined JSON content
   let combinedData = [];
 
+  // Define tier ranking, S being the highest
+  const tierRanking = {
+    'S': 1,
+    'A': 2,
+    'B': 3,
+    'C': 4,
+    'D': 5,
+    'E': 6,
+    'F': 7,
+  };
+
   // Loop through all the files and filter only JSON files
   for (const file of files) {
     if (file.endsWith('.json')) {
@@ -314,6 +325,15 @@ export async function getStaticProps() {
       combinedData = combinedData.concat(jsonData);
     }
   }
+
+  // Sort the combined data by tier using the defined ranking
+  combinedData.sort((a, b) => {
+    // Get the ranking for each Pokémon's tier
+    const rankA = tierRanking[a.tier] || 999;  // Default to a large number if tier is undefined
+    const rankB = tierRanking[b.tier] || 999;  // Default to a large number if tier is undefined
+
+    return rankA - rankB;  // Sort ascending, so lower rank comes first
+  });
 
   // Return the combined data as props
   return {
