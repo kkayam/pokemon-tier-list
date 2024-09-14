@@ -55,6 +55,17 @@ const nameExceptions = {
   'Palkia-O': 'palkia-origin-forme',
   Enamorous: 'enamorous-incarnate-forme',
 };
+const extractUniqueTiers = (pokemons) => {
+  // Use a Set to store unique tier values
+  const uniqueTiers = new Set();
+
+  pokemons.forEach((pokemon) => {
+    uniqueTiers.add(pokemon.tier);
+  });
+
+  // Convert the Set to an array and return it
+  return Array.from(uniqueTiers);
+};
 
 export default function Home({ pokemonData }) {
   const [searchTerm, setSearchTerm] = useState(''); // State to handle search term
@@ -63,7 +74,7 @@ export default function Home({ pokemonData }) {
   // Extract headers and rows from the formatted data
   const types = Object.keys(typeColors);
   const pokemons = pokemonData;
-
+  const uniqueTiers = extractUniqueTiers(pokemons);
 
   // Filtered Pokémon based on search term and selected tiers
   const filteredPokemons = pokemons.filter((pokemon) => {
@@ -116,15 +127,17 @@ export default function Home({ pokemonData }) {
 
       {/* Tier Filter Buttons */}
       <div className="flex flex-wrap gap-4 mb-6">
-        {Object.keys(tierColors).map((tier) => (
-          <button
-            key={tier}
-            className={`py-1 px-5 text-black rounded-2xl shadow-sm ${selectedTiers.includes(tier) ? 'bg-white ' : 'bg-gray-500'} hover:bg-gray-300`}
-            onClick={() => toggleTierSelection(tier)}
-          >
-            {tier}
-          </button>
-        ))}
+        {Object.keys(tierColors).map((tier) => {
+          return (uniqueTiers.includes(tier)) && (
+            <button
+              key={tier}
+              className={`py-1 px-5 text-black rounded-2xl shadow-sm ${selectedTiers.includes(tier) ? 'bg-white ' : 'bg-gray-500'} hover:bg-gray-300`}
+              onClick={() => toggleTierSelection(tier)}
+            >
+              {tier}
+            </button>
+          );
+        })}
         {/* Clear Button */}
         <button
           className="py-1 px-5 rounded-2xl shadow-sm bg-white text-black hover:bg-gray-300"
@@ -210,7 +223,7 @@ export default function Home({ pokemonData }) {
 
 export async function getStaticProps() {
   // Path to the public directory
-  const dataDirectory = path.join(process.cwd(), 'public/data');
+  const dataDirectory = path.join(process.cwd(), 'data');
 
   // Read all files in the public directory
   const files = fs.readdirSync(dataDirectory);
