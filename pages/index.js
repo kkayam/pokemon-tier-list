@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import pokemonData from '../public/pokemondata.json';
+import pokemonData from '@/data/pokemondata.json';
 
 // Define type colors mapping
 const typeColors = {
@@ -193,14 +193,14 @@ export default function Home({ data }) {
             <span className="text-lg font-semibold">Tier List Data Source</span>
           </a>
           {/* GitHub Repo Link */}
-          {/* <a
+          <a
             href="https://github.com/kkayam/pokemon-tier-list"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-white text-black p-2 rounded-md shadow-sm flex items-center justify-between transition-transform duration-300 hover:scale-105 hover:shadow-lg hover:bg-gray-300"
           >
             <span className="text-lg font-semibold">Contribute on GitHub</span>
-          </a> */}
+          </a>
         </div>
       </div>
     </div>
