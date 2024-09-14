@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import pokemonData from '@/data/pokemondata.json';
+import fs from 'fs';
+import path from 'path';
 
 // Define type colors mapping
 const typeColors = {
@@ -55,7 +56,7 @@ const nameExceptions = {
   Enamorous: 'enamorous-incarnate-forme',
 };
 
-export default function Home({ data }) {
+export default function Home({ pokemonData }) {
   const [searchTerm, setSearchTerm] = useState(''); // State to handle search term
   const [selectedTiers, setSelectedTiers] = useState([]); // State to handle multiple selected tiers
 
@@ -205,4 +206,36 @@ export default function Home({ data }) {
       </div>
     </div>
   );
+}
+
+export async function getStaticProps() {
+  // Path to the public directory
+  const dataDirectory = path.join(process.cwd(), 'public/data');
+
+  // Read all files in the public directory
+  const files = fs.readdirSync(dataDirectory);
+
+  // Initialize an empty array to store the combined JSON content
+  let combinedData = [];
+
+  // Loop through all the files and filter only JSON files
+  for (const file of files) {
+    if (file.endsWith('.json')) {
+      const filePath = path.join(dataDirectory, file);
+
+      // Read and parse the content of each JSON file
+      const fileContent = fs.readFileSync(filePath, 'utf8');
+      const jsonData = JSON.parse(fileContent);
+
+      // Combine the JSON data into a single array
+      combinedData = combinedData.concat(jsonData);
+    }
+  }
+
+  // Return the combined data as props
+  return {
+    props: {
+      pokemonData: combinedData,
+    },
+  };
 }
