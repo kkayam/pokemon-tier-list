@@ -158,7 +158,7 @@ export default function Home({ pokemonData }) {
           return uniqueTiers.includes(tier) && (
             <button
               key={tier}
-              className={`py-1 px-5 text-black rounded-2xl shadow-sm ${selectedTiers.includes(tier) ? 'bg-white ' : 'bg-gray-500'} hover:bg-gray-300`}
+              className={`py-1 px-5 text-black rounded-2xl shadow-sm ${selectedTiers.includes(tier) ? 'bg-white ' : 'bg-gray-500'} md:hover:bg-gray-300`}
               onClick={() => toggleTierSelection(tier)}
             >
               {tier}
@@ -167,7 +167,7 @@ export default function Home({ pokemonData }) {
         })}
         {/* Clear Tiers Button */}
         <button
-          className="py-1 px-5 rounded-2xl shadow-sm bg-white text-black hover:bg-gray-300"
+          className="py-1 px-5 rounded-2xl shadow-sm bg-white text-black md:hover:bg-gray-300"
           onClick={clearSelectedTiers}
         >
           Clear Tiers
@@ -180,7 +180,7 @@ export default function Home({ pokemonData }) {
           return (
             <button
               key={version}
-              className={`py-1 px-5 text-black rounded-2xl shadow-sm ${selectedVersions.includes(version) ? 'bg-white ' : 'bg-gray-500'} hover:bg-gray-300`}
+              className={`py-1 px-5 text-black rounded-2xl shadow-sm ${selectedVersions.includes(version) ? 'bg-white ' : 'bg-gray-500'} md:hover:bg-gray-300`}
               onClick={() => toggleVersionSelection(version)}
             >
               {version}
@@ -189,7 +189,7 @@ export default function Home({ pokemonData }) {
         })}
         {/* Clear Versions Button */}
         <button
-          className="py-1 px-5 rounded-2xl shadow-sm bg-white text-black hover:bg-gray-300"
+          className="py-1 px-5 rounded-2xl shadow-sm bg-white text-black md:hover:bg-gray-300"
           onClick={clearSelectedVersions}
         >
           Clear Versions
