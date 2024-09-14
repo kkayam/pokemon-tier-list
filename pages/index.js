@@ -80,8 +80,6 @@ export default function Home({ pokemonData }) {
 
   // Filtered Pokémon based on search term, selected tiers, and selected versions
   const filteredPokemons = pokemons.filter((pokemon) => {
-    console.log(pokemon);
-
     const lowerCaseSearchTerm = searchTerm.toLowerCase();
     const matchesSearchTerm =
       pokemon.name.toLowerCase().includes(lowerCaseSearchTerm) ||
