@@ -70,23 +70,30 @@ const extractUniqueTiers = (pokemons) => {
 export default function Home({ pokemonData }) {
   const [searchTerm, setSearchTerm] = useState(''); // State to handle search term
   const [selectedTiers, setSelectedTiers] = useState([]); // State to handle multiple selected tiers
+  const [selectedVersions, setSelectedVersions] = useState([]); // State to handle selected versions
 
   // Extract headers and rows from the formatted data
   const types = Object.keys(typeColors);
   const pokemons = pokemonData;
   const uniqueTiers = extractUniqueTiers(pokemons);
+  const pokemon_versions = ["Shadow", "Mega", "Normal"];
 
-  // Filtered Pokémon based on search term and selected tiers
+  // Filtered Pokémon based on search term, selected tiers, and selected versions
   const filteredPokemons = pokemons.filter((pokemon) => {
+    console.log(pokemon);
+
     const lowerCaseSearchTerm = searchTerm.toLowerCase();
     const matchesSearchTerm =
       pokemon.name.toLowerCase().includes(lowerCaseSearchTerm) ||
       pokemon.type.toLowerCase().includes(lowerCaseSearchTerm);
 
-    // If there are selected tiers, check if the Pokémon tier is in the selected tiers array
+    // Check if Pokémon matches selected tiers
     const matchesTier = selectedTiers.length ? selectedTiers.includes(pokemon.tier) : true;
 
-    return matchesSearchTerm && matchesTier;
+    // Check if Pokémon matches selected versions
+    const matchesVersion = selectedVersions.length ? selectedVersions.includes(pokemon.version) : true;
+
+    return matchesSearchTerm && matchesTier && matchesVersion;
   });
 
   // Function to toggle tier selection
@@ -98,9 +105,23 @@ export default function Home({ pokemonData }) {
     );
   };
 
+  // Function to toggle version selection
+  const toggleVersionSelection = (version) => {
+    setSelectedVersions((prevSelectedVersions) =>
+      prevSelectedVersions.includes(version)
+        ? prevSelectedVersions.filter((selectedVersion) => selectedVersion !== version) // Remove version if already selected
+        : [...prevSelectedVersions, version] // Add version if not selected
+    );
+  };
+
   // Function to clear all selected tiers
   const clearSelectedTiers = () => {
     setSelectedTiers([]);
+  };
+
+  // Function to clear all selected versions
+  const clearSelectedVersions = () => {
+    setSelectedVersions([]);
   };
 
   return (
@@ -128,7 +149,7 @@ export default function Home({ pokemonData }) {
       {/* Tier Filter Buttons */}
       <div className="flex flex-wrap gap-4 mb-6">
         {Object.keys(tierColors).map((tier) => {
-          return (uniqueTiers.includes(tier)) && (
+          return uniqueTiers.includes(tier) && (
             <button
               key={tier}
               className={`py-1 px-5 text-black rounded-2xl shadow-sm ${selectedTiers.includes(tier) ? 'bg-white ' : 'bg-gray-500'} hover:bg-gray-300`}
@@ -138,12 +159,34 @@ export default function Home({ pokemonData }) {
             </button>
           );
         })}
-        {/* Clear Button */}
+        {/* Clear Tiers Button */}
         <button
           className="py-1 px-5 rounded-2xl shadow-sm bg-white text-black hover:bg-gray-300"
           onClick={clearSelectedTiers}
         >
-          Clear
+          Clear Tiers
+        </button>
+      </div>
+
+      {/* Version Filter Buttons */}
+      <div className="flex flex-wrap gap-4 mb-6">
+        {pokemon_versions.map((version) => {
+          return (
+            <button
+              key={version}
+              className={`py-1 px-5 text-black rounded-2xl shadow-sm ${selectedVersions.includes(version) ? 'bg-white ' : 'bg-gray-500'} hover:bg-gray-300`}
+              onClick={() => toggleVersionSelection(version)}
+            >
+              {version}
+            </button>
+          );
+        })}
+        {/* Clear Versions Button */}
+        <button
+          className="py-1 px-5 rounded-2xl shadow-sm bg-white text-black hover:bg-gray-300"
+          onClick={clearSelectedVersions}
+        >
+          Clear Versions
         </button>
       </div>
 
@@ -239,6 +282,17 @@ export async function getStaticProps() {
       // Read and parse the content of each JSON file
       const fileContent = fs.readFileSync(filePath, 'utf8');
       const jsonData = JSON.parse(fileContent);
+
+      jsonData.forEach(pokemon => {
+        const pokemonNameLower = pokemon.name.toLowerCase();
+        if (/\bshadow\b/.test(pokemonNameLower)) {
+          pokemon.version = "Shadow";
+        } else if (/\bmega\b/.test(pokemonNameLower)) {
+          pokemon.version = "Mega";
+        } else {
+          pokemon.version = "Normal";
+        }
+      });
 
       // Combine the JSON data into a single array
       combinedData = combinedData.concat(jsonData);
